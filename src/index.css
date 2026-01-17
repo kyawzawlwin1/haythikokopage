@@ -2,11 +2,12 @@
 
 @import "tailwindcss";
 
-@theme {  --color-primary-bg-:#f5f5f5
-  --color-header-bg:#f5afaf;
+@theme {
+  --color-primary-bg-: #f5f5f5;
+  --color-header-bg: #f5afaf;
   --color-accent-gold: #daa520;
-  --color-deep-black: #1a1a1a;}
-
+  --color-deep-black: #1a1a1a;
+}
 
 :root {
   min-height: 100vh;
@@ -15,7 +16,7 @@
 body {
   font-family: "JetBrains Mono", "Poppins", "Monstrous";
   background-color: var(--color-primary-bg);
- */
+}
 
 /* Target the anchor tags within the main navigation */
 .main-nav a {
