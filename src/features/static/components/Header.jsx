@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="bg-header-bg headerflex w-full py-4 px-4">
+    <header className="headerflex w-full py-4 px-10">
       <div className="flex items-center w-full">
         <div>
           <a className="font-monstrous">Hay Thi Ko KO</a>
