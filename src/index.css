@@ -7,6 +7,10 @@
   --color-header-bg: #f5afaf;
   --color-accent-gold: #daa520;
   --color-deep-black: #1a1a1a;
+
+  --font-monstrous: "Montserrat", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
 }
 
 :root {

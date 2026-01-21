@@ -4,8 +4,7 @@ import heroBg from "../../../assets/Image.png";
 const HeroSection = () => {
   return (
     /* flex-1 take the space between header and footer */
-    <section 
-      /* bg-cover, bg-center တို့က အစ်ကိုမေးတဲ့ CSS တွေရဲ့ Tailwind class တွေပါ */
+    <section
       className="relative flex-1 w-full bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${heroBg})` }}
     >
