@@ -5,11 +5,7 @@ import Footer from "../components/Footer";
 
 const HomePage = () => {
   return (
-<<<<<<< Updated upstream
-    <div className="flex flex-col min-h-screen mx-auto w-full">
-=======
     <div className="flex flex-col min-h-screen mx-auto w-full ">
->>>>>>> Stashed changes
       {" "}
       <Header />
       <main className="flex-grow flex flex-col space-y-20">
@@ -21,4 +17,3 @@ const HomePage = () => {
 };
 
 export default HomePage;
- 

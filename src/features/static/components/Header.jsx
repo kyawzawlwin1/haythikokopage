@@ -2,36 +2,33 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="bg-header-bg headerflex w-full py-4">
-      <div className="flex items-center w-full px-4 md:px-10">
-        <div>
-          <a className="font-poppins">Hay Thi Ko KO</a>
+   <header className="fixed top-6 inset-x-0 z-50 mx-auto w-[90%] max-w-6xl">
+      {/* bg-white/10 backdrop-blur-md: မှန်ကြည် effect ရစေဖို့ */}
+      <nav className="flex items-center justify-between px-6 py-3 
+                      bg-white/10 backdrop-blur-md 
+                      border border-white/20 rounded-[2rem] 
+                      shadow-xl shadow-black/10">
+        
+        <div className="flex-shrink-0">
+          <a className="font-poppins text-white font-bold text-lg tracking-tight">
+            Hay Thi Ko Ko
+          </a>
         </div>
-        <div className="fles items-center gap-6 ml-auto pr-15">
-          {" "}
-          <nav className="ml-auto">
-            <ul className="flex gap-6">
-              <li className="flex gap-3">
-                <a href="" className="p-3">
-                  Home
-                </a>
-                <a href="" className="p-3">
-                  Portfolio
-                </a>
-                <a href="" className="p-3 ">
-                  Expertise
-                </a>
-                <a href="" className="p-3">
-                  About
-                </a>
-              </li>
-            </ul>
-          </nav>
+
+        {/* Desktop Navigation */}
+        <div className="hidden md:block">
+          <ul className="flex gap-2">
+            <li><a href="#" className="text-white/80 hover:text-white px-4 py-2 transition-all">Home</a></li>
+            <li><a href="#" className="text-white/80 hover:text-white px-4 py-2 transition-all">Portfolio</a></li>
+            <li><a href="#" className="text-white/80 hover:text-white px-4 py-2 transition-all">Expertise</a></li>
+            <li><a href="#" className="text-white/80 hover:text-white px-4 py-2 transition-all">About</a></li>
+          </ul>
         </div>
-        <button className="bg-white text-pink-700 rounded-lg p-1">
+
+        <button className="bg-white text-pink-700 font-semibold rounded-full px-6 py-2 hover:bg-opacity-90 transition-all">
           Contact
         </button>
-      </div>
+      </nav>
     </header>
   );
 };
