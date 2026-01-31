@@ -5,8 +5,8 @@ import { FaSquareInstagram } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    // bg-pink-500/10: ပန်းရောင်ဖျော့ဖျော့ glass effect
-    // border-pink-200/20: အနားသတ်ကိုလည်း ပန်းရောင်နုနုလေး သုံးထားပါတယ်
+    // bg-pink-500/10: soft pink glass effect
+    // border-pink-200/20: adding soft pink at borders
     <footer className="w-full py-12 bg-gradient-to-br from-pink-500/20 via-rose-400/10 to-purple-500/20 backdrop-blur-2xl border-t border-pink-300/30">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
         

@@ -3,7 +3,7 @@ import { Link } from "wouter";
 const Header = () => {
   return (
       <header className="fixed top-6 inset-x-0 z-50 mx-auto w-[90%] max-w-6xl">
-      {/* bg-white/10 backdrop-blur-md: မှန်ကြည် effect ရစေဖို့ */}
+      {/* bg-white/10 backdrop-blur-md: mirror effect */}
       <nav className="flex items-center justify-between px-6 py-3 
                       bg-white/10 backdrop-blur-md 
                       border border-white/20 rounded-[2rem] 
