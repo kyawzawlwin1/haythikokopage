@@ -26,7 +26,7 @@ const ProjectPage = () => {
   ];
 
   return (
-    <div className="p-8 bg-zinc-950 min-h-screen">
+    <div className="p-8 bg-white min-h-screen">
       <h1 className="text-3xl font-bold text-pink-500 mb-10 border-l-4 border-pink-500 pl-4">
         hello
       </h1>
@@ -36,7 +36,7 @@ const ProjectPage = () => {
         {myProjects.map((item) => (
           <div
             key={item.id}
-            className="group relative overflow-hidden rounded-2xl border border-pink-500/20 bg-zinc-900 transition-all hover:border-pink-500"
+            className="group relative overflow-hidden rounded-2xl border border-pink-500/20 bg-pink transition-all hover:border-pink-500"
           >
             <img
               src={item.img}
