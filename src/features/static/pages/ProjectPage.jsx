@@ -89,30 +89,50 @@ const ProjectPage = () => {
       id: 12,
       title: "React Renewal",
       desc: "Modern UI with Tailwind",
+<<<<<<< Updated upstream
       img: Image11,
+=======
+      img: Image13,
+>>>>>>> Stashed changes
     },
     {
       id: 13,
       title: "React Renewal",
       desc: "Modern UI with Tailwind",
+<<<<<<< Updated upstream
       img: Image12,
+=======
+      img: Image14,
+>>>>>>> Stashed changes
     },
     {
       id: 14,
       title: "React Renewal",
       desc: "Modern UI with Tailwind",
+<<<<<<< Updated upstream
       img: Image13,
+=======
+      img: Image15,
+>>>>>>> Stashed changes
     },
     {
       id: 15,
       title: "React Renewal",
       desc: "Modern UI with Tailwind",
+<<<<<<< Updated upstream
       img: Image14,
+=======
+      img: Image11,
+>>>>>>> Stashed changes
     },
   ];
 
   return (
+<<<<<<< Updated upstream
     <div className="p-8 bg-white min-h-screen">
+=======
+    <div className="p-8 bg-gray-300 min-h-screen">
+>>>>>>> Stashed changes
       <h1 className="text-3xl font-bold text-pink-500 mb-10 border-l-4 border-pink-500 pl-4">
         hello
       </h1>

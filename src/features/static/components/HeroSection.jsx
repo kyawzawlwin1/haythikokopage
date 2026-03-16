@@ -11,7 +11,7 @@ const HeroSection = () => {
       {/* <div className="absolute inset-0 bg-black/1"></div> */}
       <div className="relative z-10 text-white">
         <h1 className="text-gray-800">Welcometomyportfolio</h1>
-      </div>
+      </div> 
     </section>
   );
 };
