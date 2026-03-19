@@ -15,8 +15,8 @@ const Header = () => {
             className="
     font-poppins font-extrabold text-2xl tracking-tighter
     /* Metallic Black Gradient: အနက်ရောင်ကနေ ခဲရောင်ရင့်ရင့်ကို ပြေးထားတာ */
-    bg-gradient-to-b from-[#0f0f0f] via-[#2d2d2d] to-[#000000]
-    bg-clip-text text-transparent
+    // bg-gradient-to-b from-[#0f0f0f] via-[#2d2d2d] to-[#000000]
+    // bg-clip-text text-transparent
     
     /* Silver Glow: အနောက်ကနေ ငွေရောင်အလင်းပါးပါးလေး ပေးထားလို့ စာသားက ကြွတက်နေမှာပါ */
     filter drop-shadow-[0_1px_1px_rgba(255,255,255,0.7)]

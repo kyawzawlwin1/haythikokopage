@@ -8,7 +8,7 @@ const Footer = () => {
     // bg-pink-500/10: soft pink glass effect
     // border-pink-200/20: adding soft pink at borders
 
-    <footer className="bg-pink-500 not-last-of-type:w-full py-12 backdrop-blur-2xl border-t border-pink-300/30">
+    <footer className="bg-secondary-light-yello not-last-of-type:w-full py-12 backdrop-blur-2xl border-t border-pink-300/30">
       <div className="max-w-3xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
         Stashed changes
         {/* Brand Name with Metallic Gradient Text */}

@@ -9,9 +9,10 @@ const HeroSection = () => {
       style={{ backgroundImage: `url(${heroBg})` }}
     >
       {/* <div className="absolute inset-0 bg-black/1"></div> */}
-      <div className="relative z-10 text-white">
-        <h1 className="text-gray-800">Welcometomyportfolio</h1>
-      </div> 
+      <div className="relative z-10 text-white flex">
+        <div className="flex">Hello beauties</div>
+        <h1 className="text-gray-800"></h1>
+      </div>
     </section>
   );
 };

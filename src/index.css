@@ -3,10 +3,10 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary-bg: #F5D2D2;
-  --color-header-bg: #F8F7BA;
-  --color-accent-gold: #BDE3C3;
-  --color-deep-black: #A3CCDA;
+  --color-primary-light-pink: #F5D2D2;
+  --color-secondary-light-yello: #F8F7BA;
+  --color-light-green: #BDE3C3;
+  --color-light-blue: #A3CCDA;
 
   --font-monstrous: "Montserrat", sans-serif;
   --font-poppins: "Poppins", sans-serif;
