@@ -7,18 +7,20 @@ const Footer = () => {
   return (
     // bg-pink-500/10: soft pink glass effect
     // border-pink-200/20: adding soft pink at borders
-    <footer className="w-full py-12 bg-gradient-to-br from-pink-500/20 via-rose-400/10 to-purple-500/20 backdrop-blur-2xl border-t border-pink-300/30">
-      <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
+
+    <footer className="bg-secondary-light-yello not-last-of-type:w-full py-12 backdrop-blur-2xl border-t border-pink-300/30">
+      <div className="max-w-3xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
+        Stashed changes
         {/* Brand Name with Metallic Gradient Text */}
         <div className="font-poppins">
-          <span className="bg-gradient-to-r from-pink-200 via-white to-pink-200 bg-clip-text text-transparent text-xl font-black uppercase tracking-widest drop-shadow-[0_2px_10px_rgba(255,182,193,0.5)]">
+          <span className="text-gray-800 font-bold text-xl uppercase ">
             Hay Thi Ko Ko
           </span>
-          <p className="text-pink-100/50 text-xs mt-1">
+
+          <p className="text-pink-700 text-xs mt-1">
             © 2026 All Rights Reserved.
           </p>
         </div>
-
         {/* Metallic Social Icons */}
         <ul className="flex items-center gap-8">
           <li>

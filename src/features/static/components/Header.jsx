@@ -2,7 +2,7 @@ import { Link } from "wouter";
 
 const Header = () => {
   return (
-    <header className="fixed top-6 inset-x-0 z-50 mx-auto w-[90%] max-w-6xl">
+    <header className="fixed deep-black top-6 inset-x-0 z-50 mx-auto w-[90%] max-w-6xl">
       {/* bg-white/10 backdrop-blur-md: mirror effect */}
       <nav
         className="flex items-center justify-between px-6 py-3 
@@ -15,8 +15,8 @@ const Header = () => {
             className="
     font-poppins font-extrabold text-2xl tracking-tighter
     /* Metallic Black Gradient: အနက်ရောင်ကနေ ခဲရောင်ရင့်ရင့်ကို ပြေးထားတာ */
-    bg-gradient-to-b from-[#0f0f0f] via-[#2d2d2d] to-[#000000]
-    bg-clip-text text-transparent
+    // bg-gradient-to-b from-[#0f0f0f] via-[#2d2d2d] to-[#000000]
+    // bg-clip-text text-transparent
     
     /* Silver Glow: အနောက်ကနေ ငွေရောင်အလင်းပါးပါးလေး ပေးထားလို့ စာသားက ကြွတက်နေမှာပါ */
     filter drop-shadow-[0_1px_1px_rgba(255,255,255,0.7)]
