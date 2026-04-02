@@ -1,10 +1,11 @@
 import { Route, Switch } from "wouter";
-import Header from "./features/static/components/Header";
-import Footer from "./features/static/components/Footer";
-import HomePage from "./features/static/pages/HomePage";
-import ProjectPage from "./features/static/pages/ProjectPage";
-import ExpertisePage from "./features/static/pages/ExpertisePage";
-import AboutPage from "./features/static/pages/AboutPage";
+
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import HomePage from "./pages/HomePage";
+import ProjectPage from "./pages/ProjectPage";
+import ExpertisePage from "./pages/ExpertisePage";
+import AboutPage from "./pages/AboutPage";
 
 const App = () => {
   return (

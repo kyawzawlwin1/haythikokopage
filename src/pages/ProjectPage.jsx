@@ -1,19 +1,19 @@
 import React from "react";
-import Image from "../../../assets/Image.png";
-import Image1 from "../../../assets/Image1.png";
-import Image2 from "../../../assets/Image2.png";
-import Image3 from "../../../assets/Image3.png";
-import Image4 from "../../../assets/Image4.png";
-import Image5 from "../../../assets/Image5.png";
-import Image6 from "../../../assets/Image6.png";
-import Image7 from "../../../assets/Image7.png";
-import Image8 from "../../../assets/Image8.png";
-import Image9 from "../../../assets/Image9.png";
-import Image10 from "../../../assets/Image10.png";
-import Image11 from "../../../assets/Image11.png";
-import Image12 from "../../../assets/Image12.png";
-import Image13 from "../../../assets/Image13.png";
-import Image14 from "../../../assets/Image14.png";
+import Image from "../assets/Image.png";
+import Image1 from "../assets/Image1.png";
+import Image2 from "../assets/Image2.png";
+import Image3 from "../assets/Image3.png";
+import Image4 from "../assets/Image4.png";
+import Image5 from "../assets/Image5.png";
+import Image6 from "../assets/Image6.png";
+import Image7 from "../assets/Image7.png";
+import Image8 from "../assets/Image8.png";
+import Image9 from "../assets/Image9.png";
+import Image10 from "../assets/Image10.png";
+import Image11 from "../assets/Image11.png";
+import Image12 from "../assets/Image12.png";
+import Image13 from "../assets/Image13.png";
+import Image14 from "../assets/Image14.png";
 
 const ProjectPage = () => {
   // အစ်ကို့ရဲ့ ပရောဂျက် စာရင်းပါ
@@ -117,20 +117,20 @@ const ProjectPage = () => {
       <h1 className="text-3xl font-bold text-pink-500 mb-10 border-l-4 border-pink-500 pl-4"></h1>
 
       {/* Grid Layout Start */}
-      <div className="grid grid-cols-3 gap-3 space-x-3 space-y-12 max-w-7xl mx-auto">
+      <div className="grid grid-cols-3 gap-8 max-w-7xl mx-auto">
         {myProjects.map((item) => (
           <div
             key={item.id}
-            className="group relative overflow-hidden rounded-2xl border border-pink-500/20 bg-pink transition-all hover:border-pink-500"
+            className="group relative overflow-hidden rounded-2xl border border-pink-500/20 transition-all hover:border-pink-500"
           >
             <img
               src={item.img}
               alt={item.title}
-              className="aspect-video w-full object-cover transition-transform duration-300 group-hover:scale-105"
+              className="block aspect-video w-full object-cover transition-transform duration-300 group-hover:scale-105"
             />
             <div className="p-5 bg-secondary-light-yello">
-              {/* <h3 className="text-pink-400 font-bold text-xl">{item.title}</h3> */}
-              {/* <p className="text-zinc-400 text-sm mt-2">{item.desc}</p> */}
+              <h3 className="text-pink-400 font-bold text-xl">{item.title}</h3>
+              <p className="text-zinc-400 text-sm mt-2">{item.desc}</p>
             </div>
           </div>
         ))}
