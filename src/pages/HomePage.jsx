@@ -1,4 +1,5 @@
-import HeroSection from "../components/HeroSection";
+import HeroSection from "../features/static/components/HeroSection";
+
 
 const HomePage = () => {
   return (
