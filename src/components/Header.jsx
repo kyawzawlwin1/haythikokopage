@@ -2,7 +2,7 @@ import { Link } from "wouter";
 
 const Header = () => {
   return (
-    <header className="fixed deep-black top-6 inset-x-0 z-50 mx-auto w-[90%] max-w-6xl">
+    <header className="w-full deep-black top-6 inset-x-0 z-50 mx-auto max-w-6xl">
       {/* bg-white/10 backdrop-blur-md: mirror effect */}
       <nav
         className="flex items-center justify-between px-6 py-3 

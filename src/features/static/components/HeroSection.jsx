@@ -1,5 +1,5 @@
 import React from "react";
-import heroBg from "../../../assets/Image.png";
+import heroBg from "../../../assets/Image1.png";
 
 const HeroSection = () => {
   return (
@@ -12,7 +12,7 @@ const HeroSection = () => {
       <div className="relative z-10 text-white flex flex-col items-center justify-center">
         {/* beauty paragraph */}
         <div className="flex">
-          <p className="font-bold text-gray-800">Hello beauties</p>
+          <p className="font-bold text-gray-800">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, sapiente?</p>
         </div>
         {/* another paragraph */}
         <div>
