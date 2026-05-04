@@ -8,7 +8,7 @@ const Footer = () => {
     // bg-pink-500/10: soft pink glass effect
     // border-pink-200/20: adding soft pink at borders
 
-    <footer className="flex justify-center bg-secondary-light-yello not-last-of-type:w-full py-12 backdrop-blur-2xl border-t border-pink-300/30">
+    <footer className="flex justify-center bg-secondary-light-yello not-last-of-type:w-full py-12 backdrop-blur-2xl">
       <div className=" text-gray-700 max-w-8xl w-full mx-auto px-20 flex flex-col md:flex-row justify-between items-center gap-8">
         {/* Brand Name with Metallic Gradient Text */}
         <div className="font-poppins">
@@ -26,7 +26,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="group relative p-3 bg-white/5 rounded-full border border-pink-200/20 hover:border-pink-300/60 transition-all duration-300 shadow-[inset_0_1px_1px_rgba(255,255,255,0.2)]"
+                className=""
               >
                 <FaLinkedinIn className="text-gray-700 group-hover:text-white group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] text-2xl transition-all" />
               </a>
@@ -34,7 +34,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="group relative p-3 bg-white/5 rounded-full border border-pink-200/20 hover:border-pink-300/60 transition-all duration-300 shadow-[inset_0_1px_1px_rgba(255,255,255,0.2)]"
+                className=""
               >
                 <MdOutlineMailOutline className="text-gray-700 group-hover:text-white group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] text-2xl transition-all" />
               </a>
@@ -42,7 +42,7 @@ const Footer = () => {
             <li>
               <a
                 href="#"
-                className="group relative p-3 bg-white/5 rounded-full border border-pink-200/20 hover:border-pink-300/60 transition-all duration-300 shadow-[inset_0_1px_1px_rgba(255,255,255,0.2)]"
+                className=""
               >
                 <FaSquareInstagram className="text-gray-700 group-hover:text-white group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] text-2xl transition-all" />
               </a>
