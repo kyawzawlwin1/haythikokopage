@@ -113,7 +113,7 @@ const ProjectPage = () => {
   ];
 
   return (
-    <div className="p-8 bg-primary-light-pink min-h-screen">
+    <div className="p-8 min-h-screen">
       <h1 className="text-3xl font-bold text-pink-500 mb-10 border-l-4 border-pink-500 pl-4"></h1>
 
       {/* Grid Layout Start */}
@@ -121,14 +121,14 @@ const ProjectPage = () => {
         {myProjects.map((item) => (
           <div
             key={item.id}
-            className="group relative overflow-hidden rounded-2xl border border-pink-500/20 transition-all hover:border-pink-500"
+            className="group relative overflow-hidden rounded-2xl border border transition-all hover:border-gray-300"
           >
             <img
               src={item.img}
               alt={item.title}
               className="block aspect-video w-full object-cover transition-transform duration-300 group-hover:scale-105"
             />
-            <div className="p-5 bg-secondary-light-yello">
+            <div className="p-5 bg-gray-300">
               <h3 className="text-pink-400 font-bold text-xl">{item.title}</h3>
               <p className="text-zinc-400 text-sm mt-2">{item.desc}</p>
             </div>

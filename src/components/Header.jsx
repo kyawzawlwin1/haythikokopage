@@ -46,7 +46,7 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link href="/about">About</Link>
+              <Link className="text-gray-800"href="/about">About</Link>
             </li>
           </ul>
         </div>
