@@ -4,21 +4,30 @@ import heroBg from "../../../assets/Image1.png";
 const HeroSection = () => {
   return (
     /* flex-1 take the space between header and footer */
-    <section
-      className="relative flex w-full bg-cover bg-center bg-no-repeat min-h-screen"
-      style={{ backgroundImage: `url(${heroBg})` }}
-    >
-      {/* <div className="absolute inset-0 bg-black/1"></div> */}
-      <div className="relative z-10 text-white flex flex-col items-center justify-center">
-        {/* beauty paragraph */}
-        <div className="flex">
-          <p className="font-bold text-gray-800">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, sapiente?</p>
+    <section className=" flex bg-cover bg-center min-h-screen">
+      <div className=" text-white flex flex-row items-center w-full px-12 md:px-24 justify-between">
+        {/* word box */}
+        <div className="">
+          <h1 className="font-Poppins text-6xl font-bold tracking-tighter text-gray-300">
+            Crafting Digital Spaces
+          </h1>
+          <p className="font-bold text-gray-800">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae,
+            sapiente?
+          </p>
         </div>
         {/* another paragraph */}
-        <div>
-          <p></p>
+        <div
+          className="w-64 h-64 rounded-xl w-96 h-96 md:w-[500px] md:h-[500px] shadow-lg bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: `url(${heroBg})` }}
+        >
+          {/* <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Perspiciatis distinctio rem cum numquam quisquam est aperiam
+            corporis vitae illum necessitatibus! Perferendis animi doloribus
+            consectetur inventore aperiam unde aut numquam placeat.
+          </p> */}
         </div>
-        <h1 className="text-gray-800"></h1>
       </div>
     </section>
   );
