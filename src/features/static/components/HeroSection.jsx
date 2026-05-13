@@ -1,11 +1,13 @@
 import React from "react";
-import heroBg from "../../../assets/Image1.png";
+import heroBg from "../../../assets/herophoto.png";
 
 const HeroSection = () => {
   return (
     /* flex-1 take the space between header and footer */
-    <section className=" flex bg-cover bg-center min-h-screen">
-      <div className=" text-white flex flex-row items-center w-full px-12 md:px-24 justify-between">
+    <section className="min-h-screen">
+      <div className="h-[500px] w-full bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${heroBg})` }}></div>
+      <div className=" text-white flex flex-row items-center w-full px-12 md:px-24 justify-between bg-cover bg-no-repeat" >
+        
         {/* word box */}
         <div className="">
           <h1 className="font-Poppins text-6xl font-bold tracking-tighter text-gray-300">
@@ -19,7 +21,7 @@ const HeroSection = () => {
         {/* another paragraph */}
         <div
           className="w-64 h-64 rounded-xl w-96 h-96 md:w-[500px] md:h-[500px] shadow-lg bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${heroBg})` }}
+          // style={{ backgroundImage: `url(${heroBg})` }}
         >
           {/* <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
