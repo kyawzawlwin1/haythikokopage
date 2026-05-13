@@ -18,7 +18,10 @@ const HeroSection = () => {
             sapiente?
           </p>
         </div>
+        {/* testing */}
+        <p>ajaja fighting</p>
         {/* another paragraph */}
+
         <div
           className="w-64 h-64 rounded-xl w-96 h-96 md:w-[500px] md:h-[500px] shadow-lg bg-cover bg-center bg-no-repeat"
           // style={{ backgroundImage: `url(${heroBg})` }}
