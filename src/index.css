@@ -3,10 +3,12 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary-light-pink: #F5D2D2;
-  --color-secondary-light-yello: #F8F7BA;
-  --color-light-green: #BDE3C3;
-  --color-light-blue: #A3CCDA;
+  --color-primary-light-pink: #f5d2d2;
+  --color-secondary-light-yello: #f8f7ba;
+  --color-light-green: #bde3c3;
+  --color-light-blue: #a3ccda;
+  --color-soft-coffee: #f3e8df;
+  --color-soft-pink: #e8d1c5;
 
   --font-monstrous: "Montserrat", sans-serif;
   --font-poppins: "Poppins", sans-serif;

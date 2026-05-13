@@ -1,11 +1,11 @@
 import React from "react";
-import heroBg from "../../../assets/herophoto.png";
+import HeroBg from "../../../assets/herophoto.png"
 
 const HeroSection = () => {
   return (
     /* flex-1 take the space between header and footer */
     <section className="min-h-screen">
-      <div className="h-[500px] w-full bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${heroBg})` }}></div>
+      <div className="h-[500px] w-full bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${HeroBg})` }}></div>
       <div className=" text-white flex flex-row items-center w-full px-12 md:px-24 justify-between bg-cover bg-no-repeat" >
         
         {/* word box */}
