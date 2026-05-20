@@ -2,7 +2,7 @@ import { Link } from "wouter";
 
 const Header = () => {
   return (
-<header className="font-poppins Mono sticky top-0 z-50 w-full deep-black mx-auto">
+<header className="font-poppins Mono sticky top-0 z-50 bg-new-form1 w-full deep-black mx-auto">
       {/* bg-white/10 backdrop-blur-md: mirror effect */}
       <nav
         className="flex items-center justify-between px-6 py-3 
@@ -54,7 +54,7 @@ const Header = () => {
         <button
           className="
   
-  bg-white/10 backdrop-blur-lg
+  bg-new-form2 backdrop-blur-lg
   text-[#0f0f0f] font-bold rounded-full px-7 py-2 
   border-2 border-white/30
   drop-shadow-[0_1px_1px_rgba(255,255,255,0.8)]
