@@ -11,12 +11,13 @@ const AboutPage = () => {
           should tell a story. My approach focuses on harmonizing the
           environment with contemporary architectural elements
         </p>
-        Professional Bio: သူမရဲ့ ပညာအရည်အချင်းနဲ့ အလုပ်အတွေ့အကြုံ အကျဉ်းချုပ်။
+
+        {/* Professional Bio: သူမရဲ့ ပညာအရည်အချင်းနဲ့ အလုပ်အတွေ့အကြုံ အကျဉ်းချုပ်။
         Vision/Philosophy: သူမရဲ့ ဒီဇိုင်းစတိုင်က ဘယ်လိုမျိုးလဲ? (ဥပမာ-
         Minimalist လား၊ ဒါမှမဟုတ် Sustainable ဖြစ်တာကို အားပေးတာလား?)
         Achievements: ရရှိဖူးတဲ့ ဆုတံဆိပ်တွေ ဒါမှမဟုတ် ထင်ရှားတဲ့ project
-        ကြီးတွေအကြောင်း ဒီမှာထည့်
-      </div>
+        ကြီးတွေအကြောင်း ဒီမှာထည့် */}
+      </div> <img src="haythikoko" alt="" className="" />
     </div>
   );
 };
