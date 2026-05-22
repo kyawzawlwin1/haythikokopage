@@ -13,7 +13,7 @@ const App = () => {
       <Header />
 
       <main className="flex-grow">
-        <div className="min-h-screen">
+        <div className="min-h-screen ">
           <Switch>
             <Route path="/" component={HomePage} />
             <Route path="/projects" component={ProjectPage} />
