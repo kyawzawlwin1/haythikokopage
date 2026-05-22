@@ -2,9 +2,15 @@ import React from "react";
 import haythikoko from "../assets/haythikoko.jpg";
 const AboutPage = () => {
   return (
-    <div className="flex items-center justify-between h-[800px] ">
+    <div className="flex items-center justify-center min-h-screen px-6 py-12">
       <h1>aboutpage</h1>
-      <div></div>
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+          numquam repellat aperiam eum incidunt nemo ab odit culpa totam facilis
+          perspiciatis soluta quod fuga modi alias est, commodi doloribus saepe!
+        </p>
+      </div>
       <div>
         {/* <p className="text-gray-900">
           With a passion for sustainable design, I believe that every structure
@@ -20,7 +26,7 @@ const AboutPage = () => {
         <img
           src={haythikoko}
           alt=""
-          className="h-[550px] w-auto object-cover rounded-base shadow-md"
+          className="  mb-12  rounded-full shadow-lg"
         />
       </div>
     </div>
