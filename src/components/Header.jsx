@@ -4,13 +4,13 @@ const Header = () => {
   return (
     <header className="font-poppins Mono sticky top-0 z-50 bg-soft-coffee w-full deep-black mx-auto">
       {/* bg-white/10 backdrop-blur-md: mirror effect */}
-      <div className="max-w-7xl mx-auto px-6 w-full">
+      <div className="mx-auto px-1 w-full">
         {" "}
         <nav
-          className="flex items-center justify-between px-6 py-3 
-                      bg-white/10 backdrop-blur-md 
-                      border border-white/20 
-                      shadow-xl shadow-black/10"
+          className="flex items-center justify-between px-[4%] py-3 
+                       backdrop-blur-md 
+                      
+                      "
         >
           <div className="">
             <a
