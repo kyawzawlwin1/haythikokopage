@@ -23,7 +23,7 @@ const Header = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:block">
+          <div className="hidden md:block ml-auto mr-12">
             <ul className="flex gap-6">
               <li>
                 <Link
@@ -32,23 +32,23 @@ const Header = () => {
     text-[#1a1a1a] font-bold tracking-tight
     hover:text-[#333333] 
     drop-shadow-[0_1px_1px_rgba(255,255,255,0.3)]
-    transition-all duration-300"
+    transition-all duration-300 text-lg"
                 >
                   Home
                 </Link>
               </li>
               <li>
-                <Link className="text-gray-800" href="/Projects">
+                <Link className="text-gray-800 text-lg" href="/Projects">
                   Projects
                 </Link>
               </li>
               <li>
-                <Link className="text-gray-800" href="/services">
+                <Link className="text-gray-800 text-lg" href="/services">
                   Services
                 </Link>
               </li>
               <li>
-                <Link className="text-gray-800" href="/about">
+                <Link className="text-gray-800 text-lg" href="/about">
                   About
                 </Link>
               </li>
