@@ -17,7 +17,7 @@ const Footer = () => {
           </span>
 
           <p className="text-pink-700 text-xs mt-1">
-            © 2026 All Rights Reserved well.
+            © 2026 All Rights Reserved.
           </p>
         </div>
         {/* Metallic Social Icons */}

@@ -15,7 +15,7 @@ const Header = () => {
           <div className="">
             <a
               className="
-    font-poppins font-extrabold text-gray-300 text-2xl tracking-tighter cursor-pointer hover:opacity-80 transition-opacity
+    font-poppins font-extrabold text-gray-900 text-2xl tracking-tighter cursor-pointer hover:opacity-80 transition-opacity 
   "
             >
               Hay Thi Ko Ko
