@@ -9,7 +9,7 @@ const Footer = () => {
     // border-pink-200/20: adding soft pink at borders
 
     <footer className="flex justify-center bg-soft-pink not-last-of-type:w-full py-12 backdrop-blur-2xl">
-      <div className=" text-gray-700 max-w-8xl w-full mx-auto px-20 flex flex-col md:flex-row justify-between items-center gap-8">
+      <div className=" text-gray-700 max-w-8xl w-full mx-auto px-[4%] flex flex-col md:flex-row justify-between items-center gap-8">
         {/* Brand Name with Metallic Gradient Text */}
         <div className="font-poppins">
           <span className="text-gray-800 font-bold text-xl uppercase ">
