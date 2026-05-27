@@ -23,14 +23,10 @@ const ServicesPage = () => {
         Designing sustainable urban environments and landscapes that
         harmoniously integrate structures with their natural surroundings.
       </p>
-      <p>
-        Intro - I am an architect passionate about creating bold, intense, and
-        modern designs that leave a lasting impression. My work blends
-        creativity, structure, and innovation to transform spaces into powerful
-        visual experiences. Every project is designed with precision, emotion,
-        and a unique architectural identity that stands out from the ordinary.
+      <p className="text-gray-900">
+        Intro - 
       </p>{" "}
-      <p>
+      <p className="text-gray-900">
         How I want to help customers - My goal is to help customers bring their
         vision to life through powerful and meaningful architectural design. I
         believe every client deserves a space that reflects their personality,
