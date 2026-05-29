@@ -58,16 +58,16 @@ const Header = () => {
           <button
             className="
   
-  bg-new-form2 backdrop-blur-lg
-  text-[#0f0f0f] font-bold rounded-full px-7 py-2 
-  border-2 border-white/30
+  bg-gray-900 backdrop-blur-lg
+  text-stone-300 font-bold px-7 py-2 
+ 
   drop-shadow-[0_1px_1px_rgba(255,255,255,0.8)]
   transition-all duration-300
- hover:bg-black/10
+ hover:bg-stone-900
   hover:border-black/20
   hover:shadow-[0_8px_20px_rgba(0,0,0,0.1)]
   hover:scale-105
-
+hover:text-white
   /* Focus & Active */
   focus:outline-none focus:ring-2 focus:ring-black/10
   active:scale-95
