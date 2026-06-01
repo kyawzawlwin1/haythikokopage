@@ -2,7 +2,7 @@ import { Link } from "wouter";
 
 const Header = () => {
   return (
-    <header className="font-poppins Mono sticky top-0 z-50 bg-soft-coffee w-full deep-black mx-auto">
+    <header className="font-poppins Mono sticky top-0 z-50 bg-[#FFFBF1] w-full deep-black mx-auto">
       {/* bg-white/10 backdrop-blur-md: mirror effect */}
       <div className="mx-auto px-1 w-full">
         {" "}
@@ -61,7 +61,7 @@ const Header = () => {
   bg-gray-900 backdrop-blur-lg
   text-stone-300 font-bold px-7 py-2 
  
-  drop-shadow-[0_1px_1px_rgba(255,255,255,0.8)]
+
   transition-all duration-300
  hover:bg-stone-900
   hover:border-black/20
