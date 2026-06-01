@@ -9,7 +9,7 @@ const HeroSection = () => {
       <div className="text-gray-900 grid grid-cols-1 md:grid-cols-3 gap-20 w-full px-12 md:px-24 py-16  mx-auto max-w-none">
         {/* title box*/}
         <div className="flex flex-col justify-start md:col-span-">
-          <h1 className="font-Poppins text-6xl font-bold tracking-tighter text-gray-300 mb-8">
+          <h1 className="font-Poppins text-6xl font-bold tracking-tighter text-slate-700 mb-8">
             Crafting Digital Spaces
           </h1>
         </div>
@@ -19,7 +19,7 @@ const HeroSection = () => {
           className="flex flex-col justify-start w-full md:col-span-2"
           // style={{ backgroundImage: `url(${heroBg})` }}
         >
-          <p className="font-poppins text-gray-700 leading-relaxed md:text-lg text-justify text-lg ">
+          <p className="font-poppins text-gray-700 leading-relaxed md:text-lg lg:text-3xl ">
             I am an architect passionate about creating bold, intense, and
             modern designs that leave a lasting impression. My work blends
             creativity, structure, and innovation to transform spaces into

@@ -113,7 +113,7 @@ const ProjectPage = () => {
   ];
 
   return (
-    <div className="bg-white p-8 min-h-screen">
+    <div className="bg-[#FFFBF1] p-8 min-h-screen">
       <h1 className="text-3xl font-bold text-gray-500 mb-10 border-l-4 border-pink-500 pl-4"></h1>
 
       {/* Grid Layout Start */}
