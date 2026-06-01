@@ -4,11 +4,11 @@ import HeroBg from "../../../assets/archiphoto.jpg";
 const HeroSection = () => {
   return (
     /* flex-1 take the space between header and footer */
-    <section className="min-h-screen">
+    <section className="min-h-screen bg-[#FFFBF1]">
       {/* layer one */}
-      <div className="text-gray-900 grid grid-cols-1 md:grid-cols-2 gap-16 w-full px-12 md:px-24 py-16 max-w-7xl mx-auto">
+      <div className="text-gray-900 grid grid-cols-1 md:grid-cols-3 gap-20 w-full px-12 md:px-24 py-16  mx-auto max-w-none">
         {/* title box*/}
-        <div className="flex flex-col justify-start">
+        <div className="flex flex-col justify-start md:col-span-">
           <h1 className="font-Poppins text-6xl font-bold tracking-tighter text-gray-300 mb-8">
             Crafting Digital Spaces
           </h1>
@@ -16,10 +16,10 @@ const HeroSection = () => {
 
         {/* paragraph */}
         <div
-          className="flex flex-col justify-start"
+          className="flex flex-col justify-start w-full md:col-span-2"
           // style={{ backgroundImage: `url(${heroBg})` }}
         >
-          <p className="font-poppins text-gray-700 leading-relaxed text-base md:text-lg">
+          <p className="font-poppins text-gray-700 leading-relaxed md:text-lg text-justify text-lg ">
             I am an architect passionate about creating bold, intense, and
             modern designs that leave a lasting impression. My work blends
             creativity, structure, and innovation to transform spaces into

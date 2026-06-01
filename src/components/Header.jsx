@@ -2,7 +2,7 @@ import { Link } from "wouter";
 
 const Header = () => {
   return (
-    <header className="font-poppins Mono sticky top-0 z-50 bg-[#FFFBF1] w-full deep-black mx-auto">
+    <header className="font-poppins Mono sticky top-0 z-50 bg-[#FFFBF1] w-full deep-black mx-auto border-b border-gray-300">
       {/* bg-white/10 backdrop-blur-md: mirror effect */}
       <div className="mx-auto px-1 w-full">
         {" "}
