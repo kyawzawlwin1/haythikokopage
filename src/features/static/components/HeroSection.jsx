@@ -6,7 +6,7 @@ const HeroSection = () => {
     /* flex-1 take the space between header and footer */
     <section className="min-h-screen bg-[#FFFBF1]">
       {/* layer one */}
-      <div className="flex justify-center items-center text-gray-900 grid grid-cols-1 md:grid-cols-3 gap-20 w-full px-12 md:px-24 py-30 mx-auto max-w-none">
+      <div className="flex justify-center text-gray-900 grid grid-cols-1 md:grid-cols-3 gap-20 w-full px-12 md:px-24 py-30 mx-auto max-w-none">
         {/* title box*/}
         <div className="flex flex-col justify-start md:col-span-">
           <h1 className="font-sans text-6xl font-bold tracking-tighter text-stone-700 mb-8 pl-10">
