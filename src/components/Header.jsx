@@ -15,7 +15,7 @@ const Header = () => {
           <div className="">
             <a
               className="
-    font-poppins font-extrabold text-gray-900 text-2xl tracking-tighter cursor-pointer hover:opacity-80 transition-opacity 
+    font-poppins font-extrabold text-gray-900 text-3xl tracking-tighter cursor-pointer hover:opacity-80 transition-opacity 
   "
             >
               Hay Thi Ko Ko
@@ -31,14 +31,14 @@ const Header = () => {
                   className="
     text-[#1a1a1a] font-bold tracking-tight
     hover:text-[#333333] 
-    drop-shadow-[0_1px_1px_rgba(255,255,255,0.3)]
+    
     transition-all duration-300 text-lg"
                 >
                   Home
                 </Link>
               </li>
               <li>
-                <Link className="text-gray-800 text-lg" href="/Projects">
+                <Link className="text-gray-800 text-lg border-l border-gray-400 pl-3" href="/Projects">
                   Projects
                 </Link>
               </li>
