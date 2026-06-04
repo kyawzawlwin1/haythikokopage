@@ -130,9 +130,9 @@ const ProjectPage = () => {
               className="block aspect-video w-full object-cover transition-transform duration-300 group-hover:scale-105"
             />
             <div className="p-5">
-              <h3 className="text-gray-400 font-bold text-xl">{item.title}</h3>
+              {/* <h3 className="text-gray-400 font-bold text-xl">{item.title}</h3> */}
               <p className="text-zinc-600 text-sm mt-2 font-medium">
-                {item.desc}
+                {/* {item.desc} */}
               </p>
             </div>
           </div>
