@@ -1,6 +1,7 @@
 import React from "react";
 
 const navbar = () => {
+  
   return (
     <>
       <nav>
@@ -8,6 +9,7 @@ const navbar = () => {
           {/* logo section */}
           <div>Hay thi ko ko</div>
           {/* menu section */}
+          <div><ul></ul></div>
           {/* icons section */}
           {/* mobile hamburger menu section */}
         </div>
