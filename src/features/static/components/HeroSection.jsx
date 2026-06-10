@@ -5,17 +5,17 @@ const HeroSection = () => {
   return (
     <section className="min-h-screen bg-[#FFFBF1] w-full text-[#1a1a1a]">
       {/* 🏛️ LAYER ONE: Title & Main Intro Paragraph */}
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-16 w-full px-[6%] py-16 md:py-24 mx-auto max-w-7xl items-start">
+      <div className="flex flex-col md:flex-row gap-8 md:gap-12 w-full py-16 md:py-10 mx-auto max-w-7xl items-center">
         {/* Title Box (1/3 Width on Desktop) */}
-        <div className="md:col-span-1">
-          <h1 className="font-sans text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tighter text-stone-800 leading-none">
+        <div className="m-14 pr-10 pl-0 ml-0">
+          <h1 className="font-sans text-xl sm:text-2xl md:text-6xl font-extrabold tracking-tighter text-stone-800 leading-none w-full">
             Crafting Digital Spaces
           </h1>
         </div>
 
         {/* Paragraph Box (2/3 Width on Desktop) */}
-        <div className="md:col-span-3 md:pt-2">
-          <p className="font-serif text-xl sm:text-2xl md:text-3xl lg:text-4xl text-stone-700 leading-relaxed font-light">
+        <div className="md:col-span-3 md:pt-2 m-10">
+          <p className="font-serif text-xl sm:text-2xl md:text-3xl lg:text-4xl text-stone-700 leading-relaxed font-light tracking-wide">
             I am an architect passionate about creating bold, intense, and
             modern designs that leave a lasting impression.
           </p>
