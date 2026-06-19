@@ -4,7 +4,7 @@ import { BiMenu } from "react-icons/bi";
 
 const Header = () => {
   return (
-    <header className="font-poppins sticky top-0 z-50 bg-[#FFFBF1] w-full border-b border-gray-300">
+    <header className="font-poppins sticky top-0 z-50 bg-[#FFFBF1] w-full border-b border-gray-300 ">
       {/* 🌟 CHANGED LINE: အပြင်ဘက်ဆုံး Div မှ flex-col များကို ဖယ်ရှားပြီး relative သီးသန့် ထားရှိခြင်း */}
       <div className="mx-auto w-full relative">
         {/* 🌟 CHANGED LINE: Nav ကြီးကို flex w-full ပေးပြီး ကလေးများကို items-center နှင့် justify-between ဖြင့် ညှိခြင်း */}
@@ -12,7 +12,7 @@ const Header = () => {
           {/* Logo Section */}
           <div>
             <a className="font-poppins font-extrabold text-gray-900 text-xl md:text-3xl tracking-tighter cursor-pointer hover:opacity-80 transition-opacity">
-              Hay Thi Ko Ko
+              PinkyKo
             </a>
           </div>
 
@@ -70,7 +70,7 @@ const Header = () => {
 
           {/* Desktop Contact Button */}
           <div className="hidden md:block">
-            <button className="bg-gray-900 text-stone-300 font-bold px-7 py-3 transition-all duration-300 hover:bg-stone-900 hover:text-white active:scale-95 focus:outline-none">
+            <button className="bg-gray-900 text-stone-300 font-bold px-7 py-3 transition-all duration-300 hover:bg-stone-300 hover:text-gray-900 hover:broder  active:scale-95 focus:outline-none rounded-sm">
               Contact
             </button>
           </div>

@@ -8,8 +8,8 @@ const HeroSection = () => {
       <div className="flex flex-col md:flex-row gap-8 md:gap-12 w-full py-16 md:py-10 mx-auto max-w-7xl items-center">
         {/* Title Box (1/3 Width on Desktop) */}
         <div className="m-14 pr-10 pl-0 ml-0">
-          <h1 className="font-sans text-xl sm:text-2xl md:text-6xl font-extrabold tracking-tighter text-stone-800 leading-none w-full">
-            Crafting Digital Spaces
+          <h1 className="font-poppins text-xl sm:text-2xl md:text-6xl font-extrabold tracking-tighter text-stone-800 leading-none w-full">
+            Crafting Modern Spaces
           </h1>
         </div>
 
