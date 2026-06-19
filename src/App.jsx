@@ -1,4 +1,4 @@
-import { Route, Switch } from "wouter";
+import { Route, Router, Switch } from "wouter";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -6,6 +6,7 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ServicesPage from "./pages/ServicesPage";
 import ProjectPage from "./pages/ProjectPage";
+// import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
 
       <main className="flex-grow">
         <div className="min-h-screen ">
+          {/* <ScrollToTop /> */}
           <Switch>
             <Route path="/" component={HomePage} />
             <Route path="/projects" component={ProjectPage} />

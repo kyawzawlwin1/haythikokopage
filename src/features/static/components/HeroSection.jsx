@@ -1,5 +1,6 @@
 import React from "react";
 import HeroBg from "../../../assets/archiphoto.jpg";
+import { Link } from "wouter";
 
 const HeroSection = () => {
   return (
@@ -41,9 +42,11 @@ const HeroSection = () => {
             stands out from the ordinary.
           </p>
 
-          <button className="font-sans bg-gray-900 text-stone-200 font-bold text-lg px-8 py-4 transition-all duration-300 hover:bg-stone-900 hover:text-white hover:scale-105 active:scale-95 shadow-md rounded-lg">
-            Contact Me
-          </button>
+          <Link href="/about">
+            <button className="font-sans bg-gray-900 text-stone-200 font-bold text-lg px-8 py-4 transition-all duration-300 hover:bg-stone-900 hover:text-white hover:scale-105 active:scale-95 shadow-md rounded-lg">
+              Contact Me
+            </button>
+          </Link>
         </div>
       </div>
     </section>
