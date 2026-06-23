@@ -79,7 +79,7 @@ const Header = () => {
               📱 MOBILE DROPDOWN MENU (ဖုန်းတွင် ☰ နှိပ်မှ အပေါ်ကနေ Overlay အဖြစ် လျှောခနဲ ပွင့်လာမည့် စနစ်)
               ========================================================================= */}
           {/* 🌟 CHANGED LINE: အစ်ကို့ရဲ့ မူရင်းကုဒ်တွင် မပါဝင်သေးသော Mobile Dropdown သီးသန့် Container Box ကို ထည့်သွင်းခြင်း */}
-          <div className="absolute top-[100%] left-0 w-full bg-[#FFFBF1] hidden peer-checked:flex flex-col items-center space-y-6 py-8 border-b border-gray-300 md:hidden z-40 shadow-md">
+          <div className="absolute top-[100%] left-0 w-full bg-[#FFFBF1] hidden peer-checked:flex flex-col items-left space-y-3 py-3 pt-0 pl-[7%] border-b border-gray-300 md:hidden z-40 shadow-md">
             <Link
               href="/"
               className="text-[#1a1a1a] font-bold text-xl hover:opacity-60><a "
@@ -95,7 +95,7 @@ const Header = () => {
             <Link href="/about" className="text-gray-800 font-bold text-xl hover:opacity-60">
                 About
             </Link>
-            <button className="bg-gray-900 text-white font-bold px-10 py-3 tracking-wide uppercase text-sm w-[80%]">
+            <button className="bg-gray-900 text-white font-bold px-10 py-3 tracking-wide uppercase text-sm w-[60%] rounded-sm hover:bg-[#FFFBF1] hover:text-gray-300">
               Contact
             </button>
           </div>
