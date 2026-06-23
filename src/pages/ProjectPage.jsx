@@ -117,7 +117,7 @@ const ProjectPage = () => {
       <h1 className="text-3xl font-bold text-gray-500 mb-10 border-l-4 border-pink-500 pl-4"></h1>
 
       {/* Grid Layout Start */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-7xl mx-auto items-center">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-x-15 gap-y-0.5 max-w-7xl mx-auto items-center">
         {myProjects.map((item, index) => (
           <div
             key={item.id}

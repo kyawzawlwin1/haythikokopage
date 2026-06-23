@@ -8,14 +8,14 @@ const HeroSection = () => {
       <div className="flex flex-col md:flex-row gap-8 md:gap-12 w-full py-16 md:py-10 mx-auto max-w-7xl items-center">
         {/* Title Box (1/3 Width on Desktop) */}
         <div className="m-14 pr-10 pl-0 ml-0">
-          <h1 className="font-sans text-xl sm:text-2xl md:text-6xl font-extrabold tracking-tighter text-stone-800 leading-none w-full">
+          <h1 className="font-sans text-xl sm:text-2xl md:text-6xl font-extrabold tracking-tighter text-[#5C5757] leading-none w-full">
             Crafting Digital Spaces
           </h1>
         </div>
 
         {/* Paragraph Box (2/3 Width on Desktop) */}
         <div className="md:col-span-3 md:pt-2 m-10">
-          <p className="font-serif text-xl sm:text-2xl md:text-3xl lg:text-4xl text-stone-700 leading-relaxed font-light tracking-wide">
+          <p className="font-serif text-xl sm:text-2xl md:text-3xl lg:text-4xl text-[#3E3E3E] leading-relaxed font-light tracking-wide">
             I am an architect passionate about creating bold, intense, and
             modern designs that leave a lasting impression.
           </p>
@@ -41,7 +41,8 @@ const HeroSection = () => {
             stands out from the ordinary.
           </p>
 
-          <button className="font-sans bg-gray-900 text-stone-200 font-bold text-lg px-8 py-4 transition-all duration-300 hover:bg-stone-900 hover:text-white hover:scale-105 active:scale-95 shadow-md rounded-lg">
+          <button className="font-sans bg-[#664343] text-white font-bold text-lg px-8 py-4 transition-all duration-300 hover:bg-stone-900 hover:text-white 
+          hover:scale-105 active:scale-95 shadow-md rounded-lg">
             Contact Me
           </button>
         </div>

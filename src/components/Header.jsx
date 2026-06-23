@@ -36,7 +36,7 @@ const Header = () => {
               <li>
                 <Link
                   href="/"
-                  className="text-[#1a1a1a] font-bold tracking-tight hover:text-gray-500 transition-all duration-300 text-lg"
+                  className="text-[#1a1a1a] font-bold tracking-tight hover:text-gray-500 transition-all duration-300 text-xl"
                 >
                   Home
                 </Link>
@@ -70,7 +70,7 @@ const Header = () => {
 
           {/* Desktop Contact Button */}
           <div className="hidden md:block">
-            <button className="bg-gray-900 text-stone-300 font-bold px-7 py-3 transition-all duration-300 hover:bg-stone-900 hover:text-white active:scale-95 focus:outline-none">
+            <button className="bg-gray-900 text-white font-bold px-7 py-3 transition-all duration-300 hover:bg-stone-900 hover:text-gray-300 active:scale-95 focus:outline-none">
               Contact
             </button>
           </div>
