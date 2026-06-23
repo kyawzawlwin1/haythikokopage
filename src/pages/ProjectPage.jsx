@@ -14,6 +14,9 @@ import Image11 from "../assets/Image11.png";
 import Image12 from "../assets/Image12.png";
 import Image13 from "../assets/Image13.png";
 import Image14 from "../assets/Image14.png";
+import Image15 from "../assets/Image15.png";
+import Image16 from "../assets/Image16.png";
+import Image17 from "../assets/Image17.png";
 
 const ProjectPage = () => {
   // အစ်ကို့ရဲ့ ပရောဂျက် စာရင်းပါ
@@ -88,14 +91,12 @@ const ProjectPage = () => {
       id: 12,
       title: "React Renewal",
       desc: "Modern UI with Tailwind",
-
       img: Image11,
     },
     {
       id: 13,
       title: "React Renewal",
       desc: "Modern UI with Tailwind",
-
       img: Image12,
     },
     {
@@ -110,6 +111,18 @@ const ProjectPage = () => {
       desc: "Modern UI with Tailwind",
       img: Image14,
     },
+    {
+      id: 16,
+      title: "React Renewal",
+      desc: "Modern UI with Tailwind",
+      img: Image15,
+    },
+    {
+      id: 17,
+      title: "React Renewal",
+      desc: "Modern UI with Tailwind",
+      img: Image16,
+    },
   ];
 
   return (
@@ -121,7 +134,7 @@ const ProjectPage = () => {
         {myProjects.map((item, index) => (
           <div
             key={item.id}
-            className={`group relative overflow-hidden rounded-lg border border transition-all
+            className={`group relative overflow-hidden rounded-sm border border transition-all
         ${index % 3 === 1 ? "md:-translate-y-8" : "md:translate-y-8"}`}
           >
             <img

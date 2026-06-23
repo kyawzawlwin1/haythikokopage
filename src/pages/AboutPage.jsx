@@ -2,8 +2,12 @@ import React from "react";
 import haythikoko from "../assets/haythikoko.jpg";
 const AboutPage = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen px-6 py-12">
-      <h1>aboutpage</h1>
+    <div className="flex items-center justify-center min-h-screen px-6 py-12 bg-[#FFFBF1]">
+      <form action="">
+        <input type="text" className="bg-gray-900" />
+        <input type="text" className="bg-gray-900" />
+        <button className="bg-gray-900 rounded-lg p-3 m-3">Contact</button>
+      </form>
       <div>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
