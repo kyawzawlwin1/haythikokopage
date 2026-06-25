@@ -4,7 +4,7 @@ import { BiMenu } from "react-icons/bi";
 
 const Header = () => {
   return (
-    <header className="font-poppins sticky top-0 z-50 bg-[#FFFBF1] w-full border-b border-gray-300 ">
+    <header className="font-poppins sticky top-0 z-50 bg-white w-full border-b border-gray-300 ">
       {/* 🌟 CHANGED LINE: အပြင်ဘက်ဆုံး Div မှ flex-col များကို ဖယ်ရှားပြီး relative သီးသန့် ထားရှိခြင်း */}
       <div className="mx-auto w-full relative">
         {/* 🌟 CHANGED LINE: Nav ကြီးကို flex w-full ပေးပြီး ကလေးများကို items-center နှင့် justify-between ဖြင့် ညှိခြင်း */}

@@ -4,9 +4,9 @@ import { Link } from "wouter";
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen bg-[#FFFBF1] w-full text-[#1a1a1a]">
+    <section className="min-h-screen bg-[] w-full text-[#1a1a1a]">
       {/* 🏛️ LAYER ONE: Title & Main Intro Paragraph */}
-      <div className="flex flex-col md:flex-row gap-8 md:gap-12 w-full md:h-72 py-16 md:py-10 mx-auto max-w-7xl items-center">
+      <div className="flex flex-col px-10 py-2 md:flex-row gap-8 md:gap-12 w-full md:h-72 py-16 md:py-10 mx-auto max-w-7xl items-center">
         {/* Title Box (1/3 Width on Desktop) */}
         {/* <div className="mx-14 pr-10 pl-0 ml-0">
           <h1 className="font-poppins text-3xl sm:text-2xl md:text-4xl lg:text-6xl mx-10 font-extrabold tracking-tighter text-stone-800 leading-none w-full">
@@ -15,7 +15,7 @@ const HeroSection = () => {
         </div> */}
 
         {/* Paragraph Box (2/3 Width on Desktop) */}
-        <div className="md:col-span-3 md:pt-2 m-10 ml-0">
+        <div className="px-10md:col-span-3 md:pt-2 m-10 ml-0">
           <p className="font-poppins text-xl sm:text-2xl md:text-4xl text-stone-700 leading-relaxed font-light tracking-wide">
             I am an architect passionate about creating bold, intense, and
             modern designs that leave a lasting impression.
