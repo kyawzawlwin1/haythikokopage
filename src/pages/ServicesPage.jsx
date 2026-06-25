@@ -2,7 +2,7 @@ import React from "react";
 
 const ServicesPage = () => {
   return (
-    <div className="min-h-screen pt-28 px-6 bg-[#FFFBF1]">
+    <div className="min-h-screen pt-28 px-6 bg-[#FFFBF1] font-serif">
       <h1 className="text-gray-900">Architectural Design</h1>
       <p>
         Crafting innovative and sustainable designs for residential, commercial,
