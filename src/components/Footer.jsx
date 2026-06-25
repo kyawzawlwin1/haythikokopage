@@ -8,11 +8,11 @@ const Footer = () => {
     // bg-pink-500/10: soft pink glass effect
     // border-pink-200/20: adding soft pink at borders
 
-    <footer className="flex justify-center bg-brown-300 not-last-of-type:w-full py-12 backdrop-blur-2xl">
+    <footer className="flex justify-center bg-[#3E4541] not-last-of-type:w-full py-12 backdrop-blur-2xl">
       <div className=" text-gray-700 max-w-8xl w-full mx-auto px-[4%] flex flex-col md:flex-row justify-between items-center gap-8">
         {/* Brand Name with Metallic Gradient Text */}
         <div className="font-poppins">
-          <span className="text-gray-800 font-bold text-xl uppercase ">
+          <span className="text-white font-bold text-xl uppercase ">
             Hay Thi Ko Ko
           </span>
 
