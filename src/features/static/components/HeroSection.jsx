@@ -12,7 +12,7 @@ const HeroSection = () => {
         style={{ backgroundImage: `url(${HeroBg})` }}
       >
         <div className="flex justify-center items-center">
-          <p className="text-gray-900 text-center">hello</p>
+          <p className="text-gray-900 text-center">welcome to my world</p>
         </div>
       </div>
       {/* 🏛️ LAYER ONE: Title & Main Intro Paragraph */}
