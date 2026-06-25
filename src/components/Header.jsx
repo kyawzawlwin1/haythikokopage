@@ -12,7 +12,7 @@ const Header = () => {
           {/* Logo Section */}
           <div>
             <a className="font-poppins font-extrabold text-gray-900 text-xl md:text-3xl tracking-tighter cursor-pointer hover:opacity-80 transition-opacity">
-              PinkyKo
+              HayThiKoKo
             </a>
           </div>
 
@@ -70,9 +70,8 @@ const Header = () => {
 
           {/* Desktop Contact Button */}
           <div className="hidden md:block">
-            =======
             <button className="bg-gray-900 text-stone-300 font-bold px-7 py-3 transition-all duration-300 hover:bg-stone-300 hover:text-gray-900 hover:broder  active:scale-95 focus:outline-none rounded-sm">
-              b33c0a2feb286f587b0f6ebea8831d403d084ff9 Contact
+              Contact
             </button>
           </div>
 
