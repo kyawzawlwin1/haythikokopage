@@ -11,11 +11,11 @@ const HeroSection = () => {
         className="w-full h-[210px] sm:h-[450px] md:h-[380px] bg-cover bg-center bg-no-repeat relative shadow-sm flex justify-center items-center text-xl md:text-4xl"
         style={{ backgroundImage: `url(${HeroBg})` }}
       >
-        <p className="text-[#E5E5E0] text-center font-serif font-bold text-xl md:text-6xl">Welcome to my world</p>
+        <p className="text-[#FAF7F2] text-center font-serif font-bold text-xl md:text-6xl">Welcome to my world</p>
       </div>
       {/* 🏛️ LAYER ONE: Title & Main Intro Paragraph */}
-      <div className=" bg-[#6F756B] px-10 pt-10 md:py-20 md:px-40 h-72 ">
-        <p className="font-poppins text-xl sm:text-2xl md:text-3xl text-white leading-relaxed font-light tracking-wide">
+      <div className=" bg-[#6F756B] px-10 py-3 md:py-20 md:px-60 ">
+        <p className="font-poppins text-xl sm:text-2xl md:text-3xl md:px-30 text-white leading-relaxed font-light tracking-wide">
           I am an architect passionate about creating bold, intense, and modern
           designs that leave a lasting impression.
         </p>
@@ -27,13 +27,13 @@ const HeroSection = () => {
         style={{ backgroundImage: `url(${futureimage})` }}
       ></div> */}
       {/* 📝 LAYER THREE: Sub-description & Contact CTA */}
-      <div className="flex md:gap-30 justify-center items-center text-sm md:text-xl font-sans mx-10 pt-10 text-[#1F2523]">
+      <div className="flex gap-10 md:gap-30 justify-center items-center text-sm md:text-xl font-sans mx-10 pt-10 text-[#6F756B]">
         <p>10+ Completed Projects</p> <p>5 Years Experience 2026</p>{" "}
         <p>Founded Studio</p>
       </div>
       {/* paragraph and contact button */}
-      <div className="md:col-span-2 space-y-8 flex flex-col justify-center items-center w-full mx-auto py-10 md:py-10">
-        <p className="font-poppins text-base sm:text-lg text-stone-600 leading-relaxed tracking-wide text-center max-w-4xl mx-auto mt-3 md:text-2xl">
+      <div className="md:col-span-2 space-y-8 flex flex-col justify-center items-center w-full mx-auto py-12 md:py-10">
+        <p className="font-poppins text-base sm:text-lg text-[#6F756B] leading-relaxed tracking-wide text-center max-w-4xl mx-auto mt-3 md:text-2xl">
           My work blends creativity, structure, and innovation to transform
           spaces into powerful visual experiences. Every project is designed
           with precision, emotion, and a unique architectural identity that

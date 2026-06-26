@@ -12,7 +12,8 @@ const Header = () => {
           {/* Logo Section */}
           <div>
             <a className="font-poppins font-extrabold text-[#1F2523] text-xl md:text-3xl tracking-tighter cursor-pointer hover:opacity-80 transition-opacity">
-              HayThiK<span className="text-[#6F756B]">o</span >K<span className="text-[#6F756B]">o</span>
+              HayThiK<span className="text-[#6F756B]">o</span>K
+              <span className="text-[#6F756B]">o</span>
             </a>
           </div>
 
@@ -36,7 +37,7 @@ const Header = () => {
               <li>
                 <Link
                   href="/"
-                  className="text-[#1a1a1a] font-bold tracking-tight hover:text-gray-500 transition-all duration-300 text-xl"
+                  className="text-[#1a1a1a] font-bold tracking-tight hover:text-[gray-500] transition-all duration-300 text-xl"
                 >
                   Home
                 </Link>
@@ -69,8 +70,9 @@ const Header = () => {
           </div>
 
           {/* Desktop Contact Button */}
+          {/* Desktop Contact Button */}
           <div className="hidden md:block">
-            <button className="bg-[#6F756B] text-stone-300 font-bold px-7 py-3 transition-all duration-300 hover:bg-stone-300 hover:text-gray-900 hover:border  active:scale-30 focus:outline-none rounded-sm">
+            <button className="bg-[#6F756B] text-white font-bold px-7 py-3 border border-transparent transition-all duration-300 hover:bg-stone-300 hover:text-gray-900 hover:border-gray-900 hover:scale-105 active:scale-95 focus:outline-none rounded-sm">
               Contact
             </button>
           </div>
