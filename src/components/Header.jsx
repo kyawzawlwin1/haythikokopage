@@ -12,7 +12,7 @@ const Header = () => {
           {/* Logo Section */}
           <div>
             <a className="font-poppins font-extrabold text-[#1F2523] text-xl md:text-3xl tracking-tighter cursor-pointer hover:opacity-80 transition-opacity">
-              HayThiKoKo
+              HayThiK<span className="text-[#6F756B]">o</span >K<span className="text-[#6F756B]">o</span>
             </a>
           </div>
 
