@@ -11,7 +11,9 @@ const HeroSection = () => {
         className="w-full h-[210px] sm:h-[450px] md:h-[380px] bg-cover bg-center bg-no-repeat relative shadow-sm flex justify-center items-center text-xl md:text-4xl"
         style={{ backgroundImage: `url(${HeroBg})` }}
       >
-        <p className="text-[#FAF7F2] text-center font-serif font-bold text-xl md:text-6xl">Welcome to my world</p>
+        <p className="text-[#FAF7F2] text-center font-serif font-bold text-xl md:text-6xl">
+          Welcome to my world
+        </p>
       </div>
       {/* 🏛️ LAYER ONE: Title & Main Intro Paragraph */}
       <div className=" bg-[#6F756B] px-10 py-3 md:py-20 md:px-60 ">
@@ -21,16 +23,35 @@ const HeroSection = () => {
         </p>
       </div>
 
-      {/* 🖼️ LAYER TWO: Big Hero Banner Image */}
       {/* <div
         className="w-full h-[300px] sm:h-[450px] md:h-[380px] bg-cover bg-center bg-no-repeat relative shadow-sm"
         style={{ backgroundImage: `url(${futureimage})` }}
       ></div> */}
-      {/* 📝 LAYER THREE: Sub-description & Contact CTA */}
-      <div className="flex gap-10 md:gap-30 justify-center items-center text-sm md:text-xl font-sans mx-10 pt-10 text-[#6F756B]">
-        <p>10+ Completed Projects</p> <p>5 Years Experience 2026</p>{" "}
-        <p>Founded Studio</p>
-      </div>
+      {/* feature collections section for projects page*/}
+      <section>
+        {/* three cards  */}
+        <div></div>
+        <div></div>
+        <div></div>
+      </section>
+      {/* icons section with bold words and picture  */}
+      <section>
+        <div></div>{" "}
+        <div className="flex">
+          {/* three card with just middle borders  */}
+          <div>card1</div>
+          <div>card2</div>
+          <div>card3</div>
+        </div>
+      </section>
+      {/* experience section with details  */}
+      <section>
+        <div className="flex gap-10 md:gap-30 justify-center items-center text-sm md:text-xl font-sans mx-10 pt-10 text-[#6F756B]">
+          <p>10+ Completed Projects</p> <p>5 Years Experience 2026</p>{" "}
+          <p>Founded Studio</p>
+        </div>
+      </section>
+
       {/* paragraph and contact button */}
       <div className="md:col-span-2 space-y-8 flex flex-col justify-center items-center w-full mx-auto py-12 md:py-10">
         <p className="font-poppins text-base sm:text-lg text-[#6F756B] leading-relaxed tracking-wide text-center max-w-4xl mx-auto mt-3 md:text-2xl">
