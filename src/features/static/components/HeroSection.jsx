@@ -5,6 +5,7 @@ import { Link } from "wouter";
 import image1 from "../../../assets/image1.png";
 import image10 from "../../../assets/image10.png";
 import image8 from "../../../assets/image8.png";
+import image15 from "../../../assets/image15.png";
 
 const HeroSection = () => {
   return (
@@ -31,45 +32,78 @@ const HeroSection = () => {
         style={{ backgroundImage: `url(${futureimage})` }}
       ></div> */}
       {/* feature collections section for projects page*/}
-     <section className="w-full py-16 bg-gray-50">
-        
+      <section className="w-full py-16 px-10 bg-gray-50">
         {/* 💡 ပြင်ဆင်ချက် ၂: Outer div တွင် flex နှင့် gap စနစ်ကို ကျနစွာ ထည့်သွင်းပေးလိုက်ပါသည် */}
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-8 px-6">
-          
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-8 px-1">
           {/* === Card 1 === */}
           <div className="flex-1 bg-white rounded-xl overflow-hidden shadow-lg border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
-            <div className="w-full h-56 relative bg-gray-100 overflow-hidden">
-              <img src={image1} alt="" className="w-full h-full object-cover block" />
+            <div className="w-full h-30 md:h-56 relative bg-gray-100 overflow-hidden">
+              <img
+                src={image1}
+                alt=""
+                className="w-full h-full object-cover block"
+              />
             </div>
             {/* 💡 ပြင်ဆင်ချက် ၃: စာသားများကို h-56 Div ရဲ့ အပြင်ဘက် သီးခြား p-4 div ထဲသို့ ထုတ်ပေးလိုက်ပါသည် */}
             <div className="p-4 bg-white text-center md:text-left">
-              <p className="font-semibold text-gray-800 text-lg">New arts here</p>
-              <p className="text-xs text-gray-400 mt-1">Creative Architecture</p>
+              <p className="font-semibold text-gray-800 text-lg">
+                New arts here
+              </p>
+              <p className="text-xs text-gray-400 mt-1">
+                Creative Architecture
+              </p>
             </div>
           </div>
 
           {/* === Card 2 === */}
           <div className="flex-1 bg-white rounded-xl overflow-hidden shadow-lg border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
-            <div className="w-full h-56 relative bg-gray-100 overflow-hidden">
-              <img src={image10} alt="" className="w-full h-full object-cover block" />
+            <div className="w-full h-30 md:h-56 relative bg-gray-100 overflow-hidden">
+              <img
+                src={image10}
+                alt=""
+                className="w-full h-full object-cover block"
+              />
             </div>
             <div className="p-4 bg-white text-center md:text-left">
-              <p className="font-semibold text-gray-800 text-lg">New arts here</p>
+              <p className="font-semibold text-gray-800 text-lg">
+                New arts here
+              </p>
               <p className="text-xs text-gray-400 mt-1">Modern Concepts</p>
             </div>
           </div>
 
           {/* === Card 3 === */}
           <div className="flex-1 bg-white rounded-xl overflow-hidden shadow-lg border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
-            <div className="w-full h-56 relative bg-gray-100 overflow-hidden">
-              <img src={image8} alt="" className="w-full h-full object-cover block" />
+            <div className="w-full h-30 md:h-56 relative bg-gray-100 overflow-hidden">
+              <img
+                src={image8}
+                alt=""
+                className="w-full h-full object-cover block"
+              />
             </div>
             <div className="p-4 bg-white text-center md:text-left">
-              <p className="font-semibold text-gray-800 text-lg">New arts here</p>
+              <p className="font-semibold text-gray-800 text-lg">
+                New arts here
+              </p>
               <p className="text-xs text-gray-400 mt-1">Studio Portfolio</p>
             </div>
           </div>
 
+          <div className="flex-1 bg-white rounded-xl overflow-hidden shadow-lg border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
+            <div className="w-full h-56 relative bg-gray-100 overflow-hidden">
+              <img
+                src={image15}
+                alt=""
+                className="w-full h-full object-cover block"
+              />
+            </div>
+            <div className="p-4 bg-white text-center md:text-left">
+              <p className="font-semibold text-gray-800 text-lg">
+                New arts here
+              </p>
+              <p className="text-xs text-gray-400 mt-1">Studio Portfolio</p>
+            </div>
+          </div>
         </div>
       </section>
       {/* icons section with bold words and picture  */}
