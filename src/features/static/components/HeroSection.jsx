@@ -2,6 +2,9 @@ import React from "react";
 import HeroBg from "../../../assets/archiphoto.jpg";
 import futureimage from "../../../assets/futureimagefortesting.jpg";
 import { Link } from "wouter";
+import image1 from "../../../assets/image1.png";
+import image10 from "../../../assets/image10.png";
+import image8 from "../../../assets/image8.png";
 
 const HeroSection = () => {
   return (
@@ -28,11 +31,46 @@ const HeroSection = () => {
         style={{ backgroundImage: `url(${futureimage})` }}
       ></div> */}
       {/* feature collections section for projects page*/}
-      <section>
-        {/* three cards  */}
-        <div></div>
-        <div></div>
-        <div></div>
+     <section className="w-full py-16 bg-gray-50">
+        
+        {/* 💡 ပြင်ဆင်ချက် ၂: Outer div တွင် flex နှင့် gap စနစ်ကို ကျနစွာ ထည့်သွင်းပေးလိုက်ပါသည် */}
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-8 px-6">
+          
+          {/* === Card 1 === */}
+          <div className="flex-1 bg-white rounded-xl overflow-hidden shadow-lg border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
+            <div className="w-full h-56 relative bg-gray-100 overflow-hidden">
+              <img src={image1} alt="" className="w-full h-full object-cover block" />
+            </div>
+            {/* 💡 ပြင်ဆင်ချက် ၃: စာသားများကို h-56 Div ရဲ့ အပြင်ဘက် သီးခြား p-4 div ထဲသို့ ထုတ်ပေးလိုက်ပါသည် */}
+            <div className="p-4 bg-white text-center md:text-left">
+              <p className="font-semibold text-gray-800 text-lg">New arts here</p>
+              <p className="text-xs text-gray-400 mt-1">Creative Architecture</p>
+            </div>
+          </div>
+
+          {/* === Card 2 === */}
+          <div className="flex-1 bg-white rounded-xl overflow-hidden shadow-lg border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
+            <div className="w-full h-56 relative bg-gray-100 overflow-hidden">
+              <img src={image10} alt="" className="w-full h-full object-cover block" />
+            </div>
+            <div className="p-4 bg-white text-center md:text-left">
+              <p className="font-semibold text-gray-800 text-lg">New arts here</p>
+              <p className="text-xs text-gray-400 mt-1">Modern Concepts</p>
+            </div>
+          </div>
+
+          {/* === Card 3 === */}
+          <div className="flex-1 bg-white rounded-xl overflow-hidden shadow-lg border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
+            <div className="w-full h-56 relative bg-gray-100 overflow-hidden">
+              <img src={image8} alt="" className="w-full h-full object-cover block" />
+            </div>
+            <div className="p-4 bg-white text-center md:text-left">
+              <p className="font-semibold text-gray-800 text-lg">New arts here</p>
+              <p className="text-xs text-gray-400 mt-1">Studio Portfolio</p>
+            </div>
+          </div>
+
+        </div>
       </section>
       {/* icons section with bold words and picture  */}
       <section>
@@ -53,20 +91,22 @@ const HeroSection = () => {
       </section>
 
       {/* paragraph and contact button */}
-      <div className="md:col-span-2 space-y-8 flex flex-col justify-center items-center w-full mx-auto py-12 md:py-10">
-        <p className="font-poppins text-base sm:text-lg text-[#6F756B] leading-relaxed tracking-wide text-center max-w-4xl mx-auto mt-3 md:text-2xl">
-          My work blends creativity, structure, and innovation to transform
-          spaces into powerful visual experiences. Every project is designed
-          with precision, emotion, and a unique architectural identity that
-          stands out from the ordinary.
-        </p>
+      <section>
+        <div className="md:col-span-2 space-y-8 flex flex-col justify-center items-center w-full mx-auto py-12 md:py-10">
+          <p className="font-poppins text-base sm:text-lg text-[#6F756B] leading-relaxed tracking-wide text-center max-w-4xl mx-auto mt-3 md:text-2xl">
+            My work blends creativity, structure, and innovation to transform
+            spaces into powerful visual experiences. Every project is designed
+            with precision, emotion, and a unique architectural identity that
+            stands out from the ordinary.
+          </p>
 
-        <Link href="/about">
-          <button className="font-sans bg-[#6F756B] text-stone-200 font-bold text-lg px-8 py-4 transition-all duration-300 hover:bg-stone-900 hover:text-white hover:scale-105 active:scale-95 shadow-md rounded-lg">
-            Contact Me
-          </button>
-        </Link>
-      </div>
+          <Link href="/about">
+            <button className="font-sans bg-[#6F756B] text-stone-200 font-bold text-lg px-8 py-4 transition-all duration-300 hover:bg-stone-900 hover:text-white hover:scale-105 active:scale-95 shadow-md rounded-lg">
+              Contact Me
+            </button>
+          </Link>
+        </div>
+      </section>
     </section>
   );
 };
