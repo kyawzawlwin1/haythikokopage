@@ -32,12 +32,12 @@ const HeroSection = () => {
         style={{ backgroundImage: `url(${futureimage})` }}
       ></div> */}
       {/* feature collections section for projects page*/}
-      <section className="w-full py-16 px-10 bg-gray-50">
+      <section className="w-full py-16 px-10 bg-gray-50 bg-[#FAF7F2]">
         {/* 💡 ပြင်ဆင်ချက် ၂: Outer div တွင် flex နှင့် gap စနစ်ကို ကျနစွာ ထည့်သွင်းပေးလိုက်ပါသည် */}
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-8 px-1">
+        <div className="max-w-[95%] md:max-w-[92%] mx-auto flex flex-col md:flex-row gap-8 px-1 ">
           {/* === Card 1 === */}
-          <div className="flex-1 bg-white rounded-xl overflow-hidden shadow-lg border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
-            <div className="w-full h-30 md:h-56 relative bg-gray-100 overflow-hidden">
+          <div className="flex-1 bg-white rounded-lg overflow-hidden shadow-lg border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
+            <div className="w-full h-30 md:h-30 relative bg-gray-100 overflow-hidden">
               <img
                 src={image1}
                 alt=""
@@ -56,8 +56,8 @@ const HeroSection = () => {
           </div>
 
           {/* === Card 2 === */}
-          <div className="flex-1 bg-white rounded-xl overflow-hidden shadow-lg border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
-            <div className="w-full h-30 md:h-56 relative bg-gray-100 overflow-hidden">
+          <div className="flex-1 bg-white rounded-lg overflow-hidden shadow-lg border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
+            <div className="w-full h-30 md:h-30 relative bg-gray-100 overflow-hidden">
               <img
                 src={image10}
                 alt=""
@@ -73,8 +73,8 @@ const HeroSection = () => {
           </div>
 
           {/* === Card 3 === */}
-          <div className="flex-1 bg-white rounded-xl overflow-hidden shadow-lg border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
-            <div className="w-full h-30 md:h-56 relative bg-gray-100 overflow-hidden">
+          <div className="flex-1 bg-white rounded-lg overflow-hidden shadow-lg border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
+            <div className="w-full h-30 md:h-30 relative bg-gray-100 overflow-hidden">
               <img
                 src={image8}
                 alt=""
@@ -88,9 +88,9 @@ const HeroSection = () => {
               <p className="text-xs text-gray-400 mt-1">Studio Portfolio</p>
             </div>
           </div>
-
-          <div className="flex-1 bg-white rounded-xl overflow-hidden shadow-lg border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
-            <div className="w-full h-56 relative bg-gray-100 overflow-hidden">
+          {/* card 4  */}
+          <div className="flex-1 bg-white rounded-lg overflow-hidden shadow-lg border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
+            <div className="w-full h-30 md:h-30 relative bg-gray-100 overflow-hidden">
               <img
                 src={image15}
                 alt=""
@@ -107,13 +107,48 @@ const HeroSection = () => {
         </div>
       </section>
       {/* icons section with bold words and picture  */}
-      <section>
-        <div></div>{" "}
-        <div className="flex">
-          {/* three card with just middle borders  */}
-          <div>card1</div>
-          <div>card2</div>
-          <div>card3</div>
+      <section className="max-w-[92%] md:max-w-[92%] mx-auto">
+        {/* 🚀 💥 အပြင်ဘက်ဆုံး မိဘ div တွင် ဘယ်ညာအစွန်းသို့ တွန်းထုတ်ရန် justify-between ကို သုံးထားပါသည် */}
+        <div className="flex flex-col md:flex-row items-start justify-between gap-8 w-full">
+          {/* 📝 Left Side: Inspired text (ဘယ်ဘက်အစွန်းတွင် တစ်ခုတည်း သီးသန့်နေရာယူမည်) */}
+          <div className="text-gray-400 font-medium whitespace-nowrap pt-1">
+            Insipred from reality
+          </div>
+
+          {/* 🎴 Right Side Wrapper: ကတ်ပြား (၃) ခုကို စနစ်တကျ Grid ဖြင့် အညီအမျှ ၃ ကော်လံ ခွဲလိုက်ပါသည် */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full">
+            {/* Card 1 */}
+            <div className="flex flex-col items-center text-center">
+              <h3 className="text-lg font-bold text-gray-300 mb-2">
+                Thoughtful design
+              </h3>
+              <p className="text-sm text-gray-400 leading-relaxed">
+                I blend creativity and functionality to craft spaces tailored to
+                your vision.
+              </p>
+            </div>
+
+            {/* Card 2 */}
+            <div className="flex flex-col items-center text-center">
+              <h3 className="text-lg font-bold text-gray-300 mb-2">
+                Smart Planning
+              </h3>
+              <p className="text-sm text-gray-400 leading-relaxed">
+                Every detail is carefully planned for efficiency and purpose.
+              </p>
+            </div>
+
+            {/* Card 3 */}
+            <div className="flex flex-col items-center text-center">
+              <h3 className="text-lg font-bold text-gray-300 mb-2">
+                Timeless Spaces
+              </h3>
+              <p className="text-sm text-gray-400 leading-relaxed">
+                My designs are built to inspire today and remain relevant for
+                generations.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
       {/* experience section with details  */}
@@ -125,7 +160,7 @@ const HeroSection = () => {
       </section>
 
       {/* paragraph and contact button */}
-      <section>
+      <section className="bg-[#FAF7F2] ">
         <div className="md:col-span-2 space-y-8 flex flex-col justify-center items-center w-full mx-auto py-12 md:py-10">
           <p className="font-poppins text-base sm:text-lg text-[#6F756B] leading-relaxed tracking-wide text-center max-w-4xl mx-auto mt-3 md:text-2xl">
             My work blends creativity, structure, and innovation to transform
