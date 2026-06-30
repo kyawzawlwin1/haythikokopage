@@ -2,10 +2,10 @@ import React from "react";
 import HeroBg from "../../../assets/archiphoto.jpg";
 import futureimage from "../../../assets/futureimagefortesting.jpg";
 import { Link } from "wouter";
-import Image1 from "../assets/Image1.png";
-import Image10 from "../assets/Image10.png";
-import Image8 from "../assets/Image8.png";
-import Image15 from "../assets/Image15.png";
+import Image1 from "../../../assets/Image1.png";
+import Image10 from "../../../assets/Image10.png";
+import Image8 from "../../../assets/Image8.png";
+import Image15 from "../../../assets/Image15.png";
 
 const HeroSection = () => {
   return (
