@@ -32,7 +32,7 @@ const HeroSection = () => {
         style={{ backgroundImage: `url(${futureimage})` }}
       ></div> */}
       {/* feature collections section for projects page*/}
-      <section className="w-full py-16 px-10 bg-gray-50 bg-[#FAF7F2]">
+      <section className="w-full py-16 px-10  bg-[#FAF7F2]">
         {/* 💡 ပြင်ဆင်ချက် ၂: Outer div တွင် flex နှင့် gap စနစ်ကို ကျနစွာ ထည့်သွင်းပေးလိုက်ပါသည် */}
         <div className="max-w-[95%] md:max-w-[92%] mx-auto flex flex-col md:flex-row gap-8 px-1 ">
           {/* === Card 1 === */}
