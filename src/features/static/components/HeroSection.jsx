@@ -11,21 +11,24 @@ const HeroSection = () => {
   return (
     <section className="min-h-screen bg-[#FAF7F2] w-full text-[#A47251]">
       {/* image bg div */}
-      <div
-        className="w-full h-[210px] sm:h-[450px] md:h-[380px] bg-cover bg-center bg-no-repeat relative shadow-sm flex justify-center items-center text-xl md:text-4xl"
-        style={{ backgroundImage: `url(${HeroBg})` }}
-      >
-        <p className="text-[#FAF7F2] text-center font-serif font-bold text-xl md:text-6xl">
-          Welcome to my world
-        </p>
-      </div>
+      <section className="flex flex-col items-center">
+        <div
+          className="w-full h-[210px] sm:h-[450px] md:h-[380px] bg-cover bg-center bg-no-repeat relative shadow-sm text-xl md:text-4xl"
+          style={{ backgroundImage: `url(${HeroBg})` }}
+        >
+          <p className="text-[#FAF7F2] text-center font-serif font-bold text-xl md:text-6xl">
+            I am an architect passionate about creating bold, intense, and
+            modern designs that leave a lasting impression.
+          </p>
+        </div>
+        <div></div>
+      </section>
       {/* 🏛️ LAYER ONE: Title & Main Intro Paragraph */}
-      <div className=" bg-[#6F756B] px-10 py-3 md:py-20 md:px-60 ">
+      {/* <div className=" bg-[#6F756B] px-10 py-3 md:py-20 md:px-60 ">
         <p className="font-poppins text-xl sm:text-2xl md:text-3xl md:px-30 text-white leading-relaxed font-light tracking-wide">
-          I am an architect passionate about creating bold, intense, and modern
-          designs that leave a lasting impression.
+        
         </p>
-      </div>
+      </div> */}
 
       {/* <div
         className="w-full h-[300px] sm:h-[450px] md:h-[380px] bg-cover bg-center bg-no-repeat relative shadow-sm"
@@ -107,45 +110,70 @@ const HeroSection = () => {
         </div>
       </section>
       {/* icons section with bold words and picture  */}
-      <section className="max-w-[92%] md:max-w-[92%] mx-auto">
-        {/* 🚀 💥 အပြင်ဘက်ဆုံး မိဘ div တွင် ဘယ်ညာအစွန်းသို့ တွန်းထုတ်ရန် justify-between ကို သုံးထားပါသည် */}
-        <div className="flex flex-col md:flex-row items-start justify-between gap-8 w-full">
-          {/* 📝 Left Side: Inspired text (ဘယ်ဘက်အစွန်းတွင် တစ်ခုတည်း သီးသန့်နေရာယူမည်) */}
-          <div className="text-gray-400 font-medium whitespace-nowrap pt-1">
-            Insipred from reality
+      <section className="max-w-[92%] md:max-w-[92%] mx-auto p-3 md:p-10">
+        {/* မိဘ Wrapper ကြီးတစ်ခုလုံး (items-stretch ရှိနေပါသည်) */}
+        <div className="flex flex-col md:flex-row items-stretch justify-start md:justify-between md:gap-10 w-full font-poppins">
+          {/* 📝 Left Side: Inspired text */}
+          {/* 🌟 ညီမလေး justify-start နေရာတွင် justify-center ဟု ပြောင်းလဲကာ ညာဘက်ကတ်များနှင့် အလယ်ဗဟိုချင်း ညှိပေးလိုက်ပါသည် 🌟 */}
+          <div className="font-medium whitespace-nowrap mt-0 flex flex-col items-center justify-center gap-8 ">
+            {/* 🌟 Typo ကိုပါ Inspired ဟု စနစ်တကျ ပြင်ဆင်ပေးထားပါသည် 🌟 */}
+            <h1 className=" text-gray-700 text-xl md:text-2xl font-poppins font-bold">
+              Inspired from reality
+            </h1>
+            <p className="h-10 md:h-20">passionate</p>
           </div>
 
-          {/* 🎴 Right Side Wrapper: ကတ်ပြား (၃) ခုကို စနစ်တကျ Grid ဖြင့် အညီအမျှ ၃ ကော်လံ ခွဲလိုက်ပါသည် */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full">
+          {/* 🎴 Right Side Wrapper */}
+          <div className="flex flex-col md:flex-row items-stretch justify-between gap-3 md:gap-4 w-full">
             {/* Card 1 */}
-            <div className="flex flex-col items-center text-center">
-              <h3 className="text-lg font-bold text-gray-300 mb-2">
+            <div className="flex flex-col items-center text-center flex-1 py-6 px-6 md:px-12 min-h-0 md:min-h-[220px] justify-center bg-transparent">
+              <h3 className="text-lg font-bold mb-3 text-gray-700">
                 Thoughtful design
               </h3>
-              <p className="text-sm text-gray-400 leading-relaxed">
+              <p className="text-sm leading-relaxed text-[#6F756B]">
                 I blend creativity and functionality to craft spaces tailored to
                 your vision.
               </p>
             </div>
 
+            {/* ➖ မျဉ်းတံတို ၁ */}
+            <div className="hidden md:block w-[2px] h-16 bg-gray-300 self-center"></div>
+
             {/* Card 2 */}
-            <div className="flex flex-col items-center text-center">
-              <h3 className="text-lg font-bold text-gray-300 mb-2">
+            <div className="flex flex-col items-center text-center flex-1 py-6 px-6 md:px-12 min-h-0 md:min-h-[220px] justify-center bg-transparent">
+              <h3 className="text-lg font-bold text-gray-700 mb-3">
                 Smart Planning
               </h3>
-              <p className="text-sm text-gray-400 leading-relaxed">
+              <p className="text-sm leading-relaxed text-[#6F756B]">
                 Every detail is carefully planned for efficiency and purpose.
               </p>
             </div>
 
+            {/* ➖ မျဉ်းတံတို ၂ */}
+            <div className="hidden md:block w-[2px] h-16 bg-gray-300 self-center"></div>
+
             {/* Card 3 */}
-            <div className="flex flex-col items-center text-center">
-              <h3 className="text-lg font-bold text-gray-300 mb-2">
+            <div className="flex flex-col items-center text-center flex-1 py-6 px-6 md:px-12 min-h-0 md:min-h-[220px] justify-center bg-transparent">
+              <h3 className="text-lg font-bold text-gray-700 mb-3">
                 Timeless Spaces
               </h3>
-              <p className="text-sm text-gray-400 leading-relaxed">
+              <p className="text-sm leading-relaxed text-[#6F756B]">
                 My designs are built to inspire today and remain relevant for
                 generations.
+              </p>
+            </div>
+
+            {/* ➖ မျဉ်းတံတို ၃ */}
+            <div className="hidden md:block w-[2px] h-16 bg-gray-300 self-center"></div>
+
+            {/* Card 4 */}
+            <div className="flex flex-col items-center text-center flex-1 py-6 px-6 md:px-12 min-h-0 md:min-h-[220px] justify-center bg-transparent">
+              <h3 className="text-lg font-bold text-gray-700 mb-3">
+                Direct Partnership
+              </h3>
+              <p className="text-sm leading-relaxed text-[#6F756B]">
+                You work directly with me. I provide dedicated, one-on-one
+                attention to shape your dream spaces.
               </p>
             </div>
           </div>
@@ -153,7 +181,7 @@ const HeroSection = () => {
       </section>
       {/* experience section with details  */}
       <section>
-        <div className="flex gap-10 md:gap-30 justify-center items-center text-sm md:text-xl font-sans mx-10 pt-10 text-[#6F756B]">
+        <div className="flex gap-10 md:gap-30 justify-center items-center text-sm md:text-xl font-poppins mx-10 text-[#6F756B]">
           <p>10+ Completed Projects</p> <p>5 Years Experience 2026</p>{" "}
           <p>Founded Studio</p>
         </div>
@@ -161,8 +189,8 @@ const HeroSection = () => {
 
       {/* paragraph and contact button */}
       <section className="bg-[#FAF7F2] ">
-        <div className="md:col-span-2 space-y-8 flex flex-col justify-center items-center w-full mx-auto py-12 md:py-10">
-          <p className="font-poppins text-base sm:text-lg text-[#6F756B] leading-relaxed tracking-wide text-center max-w-4xl mx-auto mt-3 md:text-2xl">
+        <div className="md:col-span-2 space-y-8 flex flex-col justify-center items-center w-full mx-auto py-8 md:py-10">
+          <p className="px-10 pt-3 font-poppins text-base sm:text-lg text-[#6F756B] leading-relaxed tracking-wide text-center max-w-4xl mx-auto mt-3 md:text-2xl">
             My work blends creativity, structure, and innovation to transform
             spaces into powerful visual experiences. Every project is designed
             with precision, emotion, and a unique architectural identity that
