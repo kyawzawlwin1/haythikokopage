@@ -39,7 +39,7 @@ const HeroSection = () => {
           <div className="flex-1 bg-white rounded-lg overflow-hidden shadow-lg border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
             <div className="w-full h-30 md:h-30 relative bg-gray-100 overflow-hidden">
               <img
-                src={image1}
+                src={Image1}
                 alt=""
                 className="w-full h-full object-cover block"
               />
@@ -59,7 +59,7 @@ const HeroSection = () => {
           <div className="flex-1 bg-white rounded-lg overflow-hidden shadow-lg border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
             <div className="w-full h-30 md:h-30 relative bg-gray-100 overflow-hidden">
               <img
-                src={image10}
+                src={Image10}
                 alt=""
                 className="w-full h-full object-cover block"
               />
@@ -76,7 +76,7 @@ const HeroSection = () => {
           <div className="flex-1 bg-white rounded-lg overflow-hidden shadow-lg border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
             <div className="w-full h-30 md:h-30 relative bg-gray-100 overflow-hidden">
               <img
-                src={image8}
+                src={Image8}
                 alt=""
                 className="w-full h-full object-cover block"
               />
@@ -92,7 +92,7 @@ const HeroSection = () => {
           <div className="flex-1 bg-white rounded-lg overflow-hidden shadow-lg border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
             <div className="w-full h-30 md:h-30 relative bg-gray-100 overflow-hidden">
               <img
-                src={image15}
+                src={Image15}
                 alt=""
                 className="w-full h-full object-cover block"
               />
