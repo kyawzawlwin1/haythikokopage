@@ -114,9 +114,7 @@ const HeroSection = () => {
         {/* မိဘ Wrapper ကြီးတစ်ခုလုံး (items-stretch ရှိနေပါသည်) */}
         <div className="flex flex-col md:flex-row items-stretch justify-start md:justify-between md:gap-10 w-full font-poppins">
           {/* 📝 Left Side: Inspired text */}
-          {/* 🌟 ညီမလေး justify-start နေရာတွင် justify-center ဟု ပြောင်းလဲကာ ညာဘက်ကတ်များနှင့် အလယ်ဗဟိုချင်း ညှိပေးလိုက်ပါသည် 🌟 */}
-          <div className="font-medium whitespace-nowrap mt-0 flex flex-col items-center justify-center gap-8 ">
-            {/* 🌟 Typo ကိုပါ Inspired ဟု စနစ်တကျ ပြင်ဆင်ပေးထားပါသည် 🌟 */}
+          <div className="font-medium whitespace-nowrap mt-10 flex flex-col items-center justify-center gap-8 ">
             <h1 className=" text-gray-700 text-xl md:text-2xl font-poppins font-bold">
               Inspired from reality
             </h1>
@@ -144,7 +142,7 @@ const HeroSection = () => {
               <h3 className="text-lg font-bold text-gray-700 mb-3">
                 Smart Planning
               </h3>
-              <p className="text-sm leading-relaxed text-[#6F756B]">
+              <p className="text-sm leading-relaxed  text-[#6F756B]">
                 Every detail is carefully planned for efficiency and purpose.
               </p>
             </div>
