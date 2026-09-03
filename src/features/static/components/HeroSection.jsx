@@ -111,12 +111,12 @@ const HeroSection = () => {
         {/* 🚀 💥 အပြင်ဘက်ဆုံး မိဘ div တွင် ဘယ်ညာအစွန်းသို့ တွန်းထုတ်ရန် justify-between ကို သုံးထားပါသည် */}
         <div className="flex flex-col md:flex-row items-start justify-between gap-8 w-full">
           {/* 📝 Left Side: Inspired text (ဘယ်ဘက်အစွန်းတွင် တစ်ခုတည်း သီးသန့်နေရာယူမည်) */}
-          <div className="text-gray-400 font-medium whitespace-nowrap pt-1">
+          <div className="text-gray-400 font-medium whitespace-nowrap pt-1 ">
             Insipred from reality
           </div>
 
           {/* 🎴 Right Side Wrapper: ကတ်ပြား (၃) ခုကို စနစ်တကျ Grid ဖြင့် အညီအမျှ ၃ ကော်လံ ခွဲလိုက်ပါသည် */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full p-10">
             {/* Card 1 */}
             <div className="flex flex-col items-center text-center">
               <h3 className="text-lg font-bold text-gray-300 mb-2">
