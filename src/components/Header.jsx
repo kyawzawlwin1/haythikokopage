@@ -5,9 +5,9 @@ import { BiMenu } from "react-icons/bi";
 const Header = () => {
   return (
     <header className="font-poppins sticky top-0 z-50 bg-[#FAF7F2] w-full border-b border-gray-300 ">
-      {/* 🌟 CHANGED LINE: အပြင်ဘက်ဆုံး Div မှ flex-col များကို ဖယ်ရှားပြီး relative သီးသန့် ထားရှိခြင်း */}
+      {/* relative div */}
       <div className="mx-auto w-full relative">
-        {/* 🌟 CHANGED LINE: Nav ကြီးကို flex w-full ပေးပြီး ကလေးများကို items-center နှင့် justify-between ဖြင့် ညှိခြင်း */}
+        {/* nav bar */}
         <nav className="flex items-center justify-between w-full px-[4%] py-4 relative">
           {/* Logo Section */}
           <div>
@@ -77,9 +77,9 @@ const Header = () => {
           </div>
 
           {/* =========================================================================
-              📱 MOBILE DROPDOWN MENU (ဖုန်းတွင် ☰ နှိပ်မှ အပေါ်ကနေ Overlay အဖြစ် လျှောခနဲ ပွင့်လာမည့် စနစ်)
+              📱 MOBILE DROPDOWN MENU
               ========================================================================= */}
-          {/* 🌟 CHANGED LINE: အစ်ကို့ရဲ့ မူရင်းကုဒ်တွင် မပါဝင်သေးသော Mobile Dropdown သီးသန့် Container Box ကို ထည့်သွင်းခြင်း */}
+          {/* 🌟 CHANGED LINE: mobile nav bar */}
           <div className="absolute top-[100%] left-0 w-full bg-[#FFFBF1] hidden peer-checked:flex flex-col items-left space-y-3 py-3 pt-0 pl-[7%] border-b border-gray-300 md:hidden z-40 shadow-md">
             <Link
               href="/"

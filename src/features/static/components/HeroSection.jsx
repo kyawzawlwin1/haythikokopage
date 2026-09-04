@@ -12,7 +12,7 @@ const HeroSection = () => {
       {/* Hero Background Image Section */}
       <section className="w-full">
         <div
-          className="w-full h-[250px] sm:h-[380px] md:h-[480px] bg-cover bg-center bg-no-repeat flex items-center justify-center shadow-sm p-4 sm:p-8 overflow-hidden"
+          className="w-full h-[250px] sm:h-[380px] md:h-[400px] bg-cover bg-center bg-no-repeat flex items-center justify-center shadow-sm p-4 sm:p-8 overflow-hidden"
           style={{ backgroundImage: `url(${HeroBg})` }}
         >
           {/* Dark Overlay */}
@@ -27,7 +27,7 @@ const HeroSection = () => {
       </section>
 
       {/* Feature Collections Section */}
-      <section className="w-full py-8 sm:py-12 px-4 sm:px-6 bg-[#FAF7F2]">
+      <section className="w-full py-8 sm:py-12 px-10 sm:px-6 bg-[#FAF7F2]">
         <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* === Card 1 === */}
           <div className="bg-white rounded-lg overflow-hidden shadow-md border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
