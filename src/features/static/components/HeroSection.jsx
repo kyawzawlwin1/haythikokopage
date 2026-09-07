@@ -30,7 +30,7 @@ const HeroSection = () => {
       <section className="w-full py-8 sm:py-12 px-10 sm:px-6 bg-[#FAF7F2]">
         <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* === Card 1 === */}
-          <div className="bg-white rounded-lg overflow-hidden shadow-md border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
+          <div className="bg-white rounded-sm overflow-hidden shadow-md border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
             <div className="w-full h-40 sm:h-44 bg-gray-100 overflow-hidden">
               <img
                 src={Image1}
@@ -49,7 +49,7 @@ const HeroSection = () => {
           </div>
 
           {/* === Card 2 === */}
-          <div className="bg-white rounded-lg overflow-hidden shadow-md border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
+          <div className="bg-white rounded-sm overflow-hidden shadow-md border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
             <div className="w-full h-40 sm:h-44 bg-gray-100 overflow-hidden">
               <img
                 src={Image10}
@@ -66,7 +66,7 @@ const HeroSection = () => {
           </div>
 
           {/* === Card 3 === */}
-          <div className="bg-white rounded-lg overflow-hidden shadow-md border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
+          <div className="bg-white rounded-sm overflow-hidden shadow-md border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
             <div className="w-full h-40 sm:h-44 bg-gray-100 overflow-hidden">
               <img
                 src={Image8}
@@ -83,7 +83,7 @@ const HeroSection = () => {
           </div>
 
           {/* === Card 4 === */}
-          <div className="bg-white rounded-lg overflow-hidden shadow-md border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
+          <div className="bg-white rounded-sm overflow-hidden shadow-md border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
             <div className="w-full h-40 sm:h-44 bg-gray-100 overflow-hidden">
               <img
                 src={Image15}

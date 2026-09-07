@@ -8,7 +8,7 @@ const Header = () => {
       {/* relative div */}
       <div className="mx-auto w-full relative">
         {/* nav bar */}
-        <nav className="flex items-center justify-between w-full px-[4%] py-4 relative">
+        <nav className="flex items-center justify-between w-full px-[8%] md:px-[4%] py-4 relative">
           {/* Logo Section */}
           <div>
             <a className="font-poppins font-extrabold text-[#1F2523] text-xl md:text-3xl tracking-tighter cursor-pointer hover:opacity-80 transition-opacity">
@@ -19,7 +19,7 @@ const Header = () => {
           {/* 🔐 Checkbox controller */}
           <input type="checkbox" className="peer hidden" id="navbar-open" />
 
-          {/* 🌟 CHANGED LINE: Hamburger Label ကို absolute မသုံးတော့ဘဲ Flex box ထဲတွင် အလိုအလျောက် ညာဘက်သို့ ကပ်စေခြင်း */}
+          {/* 🌟 CHANGED LINE: Hamburger Label not using absolute and sticking to right */}
           <label
             className="cursor-pointer md:hidden select-none z-50 text-3xl"
             htmlFor="navbar-open"
@@ -28,9 +28,9 @@ const Header = () => {
           </label>
 
           {/* =========================================================================
-              💻 DESKTOP NAVIGATION (Laptop/Desktop View တွင်သာ ပေါ်မည့် သန့်ရှင်းသော Menu)
+              💻 DESKTOP NAVIGATION (Laptop/Desktop View Menu)
               ========================================================================= */}
-          {/* 🌟 CHANGED LINE: peer-checked:block ကို ဖယ်ရှားပြီး Desktop အတွက် သီးသန့် hidden md:flex စနစ် သုံးထားခြင်း */}
+          {/* 🌟 CHANGED LINE: peer-checked:block removed and desktop hidden md: flex */}
           <div className="hidden md:flex items-center ml-auto mr-12">
             <ul className="flex gap-8 items-center">
               <li>
