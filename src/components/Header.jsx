@@ -8,10 +8,10 @@ const Header = () => {
       {/* relative div */}
       <div className="mx-auto w-full relative">
         {/* nav bar */}
-        <nav className="flex items-center justify-between w-full px-[8%] md:px-[4%] py-4 relative">
+        <nav className="flex items-center justify-between w-full px-[8%] py-4 relative">
           {/* Logo Section */}
           <div>
-            <a className="font-poppins font-extrabold text-[#1F2523] text-xl md:text-4xl pl-10 tracking-tighter cursor-pointer hover:opacity-80 transition-opacity">
+            <a className="font-poppins font-extrabold text-[#1F2523] text-xl md:text-2xl tracking-tighter cursor-pointer hover:opacity-80 transition-opacity">
               HAYKO DESIGNS
             </a>
           </div>
