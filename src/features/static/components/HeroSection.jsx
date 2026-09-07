@@ -27,8 +27,8 @@ const HeroSection = () => {
       </section>
 
       {/* Feature Collections Section */}
-      <section className="w-full py-8 sm:py-12 px-10 sm:px-6 bg-[#FAF7F2]">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <section className="w-full py-8 sm:py-12 px-1 sm:px-1 md:px-1 bg-[#FAF7F2]">
+        <div className="mx-auto md:px-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* === Card 1 === */}
           <div className="bg-white rounded-sm overflow-hidden shadow-md border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
             <div className="w-full h-40 sm:h-44 bg-gray-100 overflow-hidden">
