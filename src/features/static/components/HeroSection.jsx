@@ -8,9 +8,9 @@ import Image15 from "../../../assets/Image15.png";
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen bg-[#FAF7F2] w-full text-[#A47251]">
+    <section className="min-h-screen bg-[#FAF7F2] w-full text-[#A47251] ">
       {/* Hero Background Image Section */}
-      <section className="w-full">
+      <section className="w-full ">
         <div
           className="w-full h-[250px] sm:h-[380px] md:h-[400px] bg-cover bg-center bg-no-repeat flex items-center justify-center shadow-sm p-4 sm:p-8 overflow-hidden"
           style={{ backgroundImage: `url(${HeroBg})` }}
@@ -27,7 +27,7 @@ const HeroSection = () => {
       </section>
 
       {/* Feature Collections Section */}
-      <section className="w-full py-8 sm:py-12 px-1 sm:px-1 md:px-1 bg-[#FAF7F2]">
+      <section className="w-full py-8 sm:py-12 md:px-1 px-4 sm:px-6 lg:px-12 bg-[#FAF7F2] ">
         <div className="mx-auto md:px-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* === Card 1 === */}
           <div className="bg-white rounded-sm overflow-hidden shadow-md border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
@@ -102,7 +102,7 @@ const HeroSection = () => {
       </section>
 
       {/* Icons & Inspired Section */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 py-8 font-poppins">
+      <section className="w-full mx-auto px-4 sm:px-6 lg:px-20 py-10 md:py-10 lg:py-20 font-poppins">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-8 w-full">
           {/* Left Side Title */}
           <div className="text-center lg:text-left flex flex-col justify-center">
