@@ -8,7 +8,7 @@ import Image15 from "../../../assets/Image15.png";
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen bg-[#FAF7F2] w-full text-[#A47251]">
+    <section className="min-h-screen bg-[#FDFAF6] w-full text-[#A47251]">
       {/* Hero Background Image Section */}
       <section className="w-full">
         <div
@@ -27,7 +27,7 @@ const HeroSection = () => {
       </section>
 
       {/* Feature Collections Section */}
-      <section className="w-full py-8 sm:py-12 px-10 sm:px-10 md:px-6 bg-[#FAF7F2]">
+      <section className="w-full py-8 sm:py-12 px-10 sm:px-10 md:px-6 bg-[#FAF7F2] px-[60px]">
         <div className="mx-auto md:px-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* === Card 1 === */}
           <div className="bg-white rounded-sm overflow-hidden shadow-md border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
@@ -102,11 +102,11 @@ const HeroSection = () => {
       </section>
 
       {/* Icons & Inspired Section */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 py-8 font-poppins">
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-8 w-full">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 py-8 font-poppins px-[60px]">
+        <div className="flex flex-col lg:flex-row gap-8 w-full">
           {/* Left Side Title */}
           <div className="text-center lg:text-left flex flex-col justify-center">
-            <h2 className="text-gray-700 text-xl sm:text-2xl md:text-3xl font-bold mb-1">
+            <h2 className="text-gray-700 text-xl sm:text-2xl md:text-3xl font-bold mb-1 ">
               Inspired from reality
             </h2>
             <p className="text-xs sm:text-sm text-[#6F756B] uppercase tracking-wider">
@@ -158,7 +158,7 @@ const HeroSection = () => {
       </section>
 
       {/* Experience Stats Section */}
-      <section className="px-4 py-6">
+      <section className="px-4 py-6 bg-[#FFDCDC]">
         <div className="flex flex-wrap gap-4 sm:gap-12 md:gap-20 justify-center items-center text-center text-xs sm:text-sm md:text-xl font-poppins text-[#6F756B]">
           <p className="font-semibold">10+ Completed Projects</p>
           <p className="font-semibold">5 Years Experience 2026</p>
