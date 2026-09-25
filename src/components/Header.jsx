@@ -4,11 +4,11 @@ import { BiMenu } from "react-icons/bi";
 
 const Header = () => {
   return (
-    <header className="font-poppins sticky top-0 z-50 bg-[#FAF7F2] w-full border-b border-gray-300 ">
+    <header className="font-poppins sticky top-0 z-50 bg-[#FAF7F2] w-full border-b border-gray-300 px-[60px] ">
       {/* relative div */}
       <div className="mx-auto w-full relative">
         {/* nav bar */}
-        <nav className="flex items-center justify-between w-full px-[8%] py-4 relative">
+        <nav className="flex items-center justify-between w-full  py-4 relative">
           {/* Logo Section */}
           <div>
             <a className="font-poppins font-extrabold text-[#1F2523] text-xl md:text-2xl tracking-tighter cursor-pointer hover:opacity-80 transition-opacity">
