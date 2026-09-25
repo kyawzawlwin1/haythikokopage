@@ -25,9 +25,9 @@ const HeroSection = () => {
           </p>
         </div>
       </section>
-
       {/* Feature Collections Section */}
-      <section className="w-full py-8 sm:py-12 md:px-1 px-4 sm:px-6 lg:px-12 bg-[#FAF7F2] ">
+
+      <section className="w-full py-8 sm:py-12 px-10 sm:px-10 md:px-6 bg-[#FAF7F2]">
         <div className="mx-auto md:px-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* === Card 1 === */}
           <div className="bg-white rounded-sm overflow-hidden shadow-md border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
@@ -100,7 +100,6 @@ const HeroSection = () => {
           </div>
         </div>
       </section>
-
       {/* Icons & Inspired Section */}
       <section className="w-full mx-auto px-4 sm:px-6 lg:px-20 py-10 md:py-10 lg:py-20 font-poppins">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-8 w-full">
@@ -156,7 +155,6 @@ const HeroSection = () => {
           </div>
         </div>
       </section>
-
       {/* Experience Stats Section */}
       <section className="px-4 py-6">
         <div className="flex flex-wrap gap-4 sm:gap-12 md:gap-20 justify-center items-center text-center text-xs sm:text-sm md:text-xl font-poppins text-[#6F756B]">
@@ -165,7 +163,6 @@ const HeroSection = () => {
           <p className="font-semibold">Founded Studio</p>
         </div>
       </section>
-
       {/* Paragraph & Contact Button Section */}
       <section className="bg-[#FAF7F2] pb-12 sm:pb-16">
         <div className="space-y-6 sm:space-y-8 flex flex-col justify-center items-center w-full max-w-4xl mx-auto py-6 px-4 sm:px-6 text-center">
