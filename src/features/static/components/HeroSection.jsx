@@ -25,7 +25,18 @@ const HeroSection = () => {
           </p>
         </div>
       </section>
-
+      {/* explanation div */}
+      <section className="flex flex-col sm:flex-row justify-center items-center bg-[#FAF7F2] px-[60px] py-12 sm:py-16">
+        <div className="">Welcome to HaykoDesigns</div>
+        <div className="space-y-6 sm:space-y-8 flex flex-col justify-center items-center w-full max-w-4xl mx-auto py-6 px-4 sm:px-6 text-center">
+          <p className="font-poppins text-sm sm:text-base md:text-xl text-[#6F756B] leading-relaxed tracking-wide">
+            My work blends creativity, structure, and innovation to transform
+            spaces into powerful visual experiences. Every project is designed
+            with precision, emotion, and a unique architectural identity that
+            stands out from the ordinary.
+          </p>
+        </div>
+      </section>
       {/* Feature Collections Section */}
       <section className="w-full py-8 sm:py-12 px-10 sm:px-10 md:px-6 bg-[#FAF7F2] px-[60px]">
         <div className="mx-auto md:px-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -112,6 +123,11 @@ const HeroSection = () => {
             <p className="text-xs sm:text-sm text-[#6F756B] uppercase tracking-wider">
               passionate
             </p>
+            <Link href="/about">
+              <button className="font-sans bg-[#6F756B] text-stone-200 font-bold text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 transition-all duration-300 hover:bg-stone-900 hover:text-white hover:scale-105 active:scale-95 shadow-md rounded-lg cursor-pointer">
+                Contact Me
+              </button>
+            </Link>
           </div>
 
           {/* Right Side Cards */}
@@ -167,22 +183,6 @@ const HeroSection = () => {
       </section>
 
       {/* Paragraph & Contact Button Section */}
-      <section className="bg-[#FAF7F2] pb-12 sm:pb-16">
-        <div className="space-y-6 sm:space-y-8 flex flex-col justify-center items-center w-full max-w-4xl mx-auto py-6 px-4 sm:px-6 text-center">
-          <p className="font-poppins text-sm sm:text-base md:text-xl text-[#6F756B] leading-relaxed tracking-wide">
-            My work blends creativity, structure, and innovation to transform
-            spaces into powerful visual experiences. Every project is designed
-            with precision, emotion, and a unique architectural identity that
-            stands out from the ordinary.
-          </p>
-
-          <Link href="/about">
-            <button className="font-sans bg-[#6F756B] text-stone-200 font-bold text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 transition-all duration-300 hover:bg-stone-900 hover:text-white hover:scale-105 active:scale-95 shadow-md rounded-lg cursor-pointer">
-              Contact Me
-            </button>
-          </Link>
-        </div>
-      </section>
     </section>
   );
 };
