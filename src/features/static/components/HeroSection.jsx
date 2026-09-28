@@ -8,11 +8,7 @@ import Image15 from "../../../assets/Image15.png";
 
 const HeroSection = () => {
   return (
-<<<<<<< HEAD
     <section className="min-h-screen bg-[#FAF7F2] w-full text-[#A47251] ">
-=======
-    <section className="min-h-screen bg-[#FDFAF6] w-full text-[#A47251]">
->>>>>>> f01918df30ad41c1aa03025b8e759d0e5830d3f5
       {/* Hero Background Image Section */}
       <section className="w-full ">
         <div
@@ -30,12 +26,8 @@ const HeroSection = () => {
         </div>
       </section>
       {/* Feature Collections Section */}
-<<<<<<< HEAD
 
       <section className="w-full py-8 sm:py-12 px-10 sm:px-10 md:px-6 bg-[#FAF7F2]">
-=======
-      <section className="w-full py-8 sm:py-12 px-10 sm:px-10 md:px-6 bg-[#FAF7F2] px-[60px]">
->>>>>>> f01918df30ad41c1aa03025b8e759d0e5830d3f5
         <div className="mx-auto md:px-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* === Card 1 === */}
           <div className="bg-white rounded-sm overflow-hidden shadow-md border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
@@ -89,7 +81,6 @@ const HeroSection = () => {
               <p className="text-xs text-gray-400 mt-1">Studio Portfolio</p>
             </div>
           </div>
-
           {/* === Card 4 === */}
           <div className="bg-white rounded-sm overflow-hidden shadow-md border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
             <div className="w-full h-40 sm:h-44 bg-gray-100 overflow-hidden">
@@ -109,23 +100,17 @@ const HeroSection = () => {
         </div>
       </section>
       {/* Icons & Inspired Section */}
-<<<<<<< HEAD
       <section className="w-full mx-auto px-4 sm:px-6 lg:px-20 py-10 md:py-10 lg:py-20 font-poppins">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-8 w-full">
-=======
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 py-8 font-poppins px-[60px]">
-        <div className="flex flex-col lg:flex-row gap-8 w-full">
->>>>>>> f01918df30ad41c1aa03025b8e759d0e5830d3f5
           {/* Left Side Title */}
           <div className="text-center lg:text-left flex flex-col justify-center">
-            <h2 className="text-gray-700 text-xl sm:text-2xl md:text-3xl font-bold mb-1 ">
+            <h2 className="text-gray-700 text-xl sm:text-2xl md:text-3xl font-bold mb-1">
               Inspired from reality
             </h2>
             <p className="text-xs sm:text-sm text-[#6F756B] uppercase tracking-wider">
               passionate
             </p>
           </div>
-
           {/* Right Side Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 w-full">
             <div className="flex flex-col items-center text-center p-5 bg-white/60 rounded-lg shadow-sm border border-stone-100">
@@ -137,7 +122,6 @@ const HeroSection = () => {
                 your vision.
               </p>
             </div>
-
             <div className="flex flex-col items-center text-center p-5 bg-white/60 rounded-lg shadow-sm border border-stone-100">
               <h3 className="text-base sm:text-lg font-bold mb-2 text-gray-700">
                 Smart Planning
@@ -146,7 +130,6 @@ const HeroSection = () => {
                 Every detail is carefully planned for efficiency and purpose.
               </p>
             </div>
-
             <div className="flex flex-col items-center text-center p-5 bg-white/60 rounded-lg shadow-sm border border-stone-100">
               <h3 className="text-base sm:text-lg font-bold mb-2 text-gray-700">
                 Timeless Spaces
@@ -156,7 +139,6 @@ const HeroSection = () => {
                 generations.
               </p>
             </div>
-
             <div className="flex flex-col items-center text-center p-5 bg-white/60 rounded-lg shadow-sm border border-stone-100">
               <h3 className="text-base sm:text-lg font-bold mb-2 text-gray-700">
                 Direct Partnership
@@ -169,7 +151,7 @@ const HeroSection = () => {
         </div>
       </section>
       {/* Experience Stats Section */}
-      <section className="px-4 py-6 bg-[#FFDCDC]">
+      <section className="px-4 py-6">
         <div className="flex flex-wrap gap-4 sm:gap-12 md:gap-20 justify-center items-center text-center text-xs sm:text-sm md:text-xl font-poppins text-[#6F756B]">
           <p className="font-semibold">10+ Completed Projects</p>
           <p className="font-semibold">5 Years Experience 2026</p>
@@ -185,7 +167,6 @@ const HeroSection = () => {
             with precision, emotion, and a unique architectural identity that
             stands out from the ordinary.
           </p>
-
           <Link href="/about">
             <button className="font-sans bg-[#6F756B] text-stone-200 font-bold text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 transition-all duration-300 hover:bg-stone-900 hover:text-white hover:scale-105 active:scale-95 shadow-md rounded-lg cursor-pointer">
               Contact Me
