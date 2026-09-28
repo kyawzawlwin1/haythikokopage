@@ -25,7 +25,6 @@ const HeroSection = () => {
           </p>
         </div>
       </section>
-
       {/* explanation div */}
       <section className="flex flex-col sm:flex-row justify-center items-center bg-[#FAF7F2] px-[60px] py-12 sm:py-16">
         <div className="">Welcome to HaykoDesigns</div>
@@ -38,10 +37,8 @@ const HeroSection = () => {
           </p>
         </div>
       </section>
-
       {/* Feature Collections Section */}
-
-      <section className="w-full py-8 sm:py-12 px-10 sm:px-10 md:px-6 bg-[#FAF7F2]">
+      <section className="w-full py-8 sm:py-12 px-10 sm:px-[60px] md:px-6 bg-[#FAF7F2]">
         <div className="mx-auto md:px-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* === Card 1 === */}
           <div className="bg-white rounded-sm overflow-hidden shadow-md border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
@@ -114,10 +111,10 @@ const HeroSection = () => {
         </div>
       </section>
       {/* Icons & Inspired Section */}
-      <section className="w-full mx-auto px-4 sm:px-6 lg:px-20 py-10 md:py-10 lg:py-20 font-poppins">
+      <section className="w-full mx-auto px-4 sm:px-[60px] py-10 md:py-10 lg:py-20 font-poppins">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-8 w-full">
           {/* Left Side Title */}
-          <div className="text-center lg:text-left flex flex-col justify-center">
+          <div className="text-center lg:text-left flex flex-col justify-center gap-3">
             <h2 className="text-gray-700 text-xl sm:text-2xl md:text-3xl font-bold mb-1">
               Inspired from reality
             </h2>
