@@ -14,7 +14,7 @@ const HeroSection = () => {
         className="flex justify-baseline items-end w-full min-h-[70vh] bg-cover bg-center bg-no-repeat overflow-hidden  "
         style={{ backgroundImage: `url(${HeroBg})` }}
       >
-        <div className="w-full  flex items-center  p-4 sm:p-8  ">
+        <div className="flex items-center w-full p-4 sm:p-8  ">
           {/* Dark Overlay */}
           {/* <div className=""></div> */}
 
@@ -28,7 +28,9 @@ const HeroSection = () => {
       {/* explanation div */}
       <section className="flex flex-col sm:flex-row justify-center items-center bg-[#FAF7F2] px-[60px] py-12 sm:py-12">
         <div className="">
-          <p className="text-4xl font-bold">Welcome to HaykoDesigns</p>
+          <p className="text-4xl font-bold font-sans">
+            Welcome to HaykoDesigns
+          </p>
         </div>
         <div className="space-y-6 sm:space-y-8 flex flex-col justify-center items-center w-full max-w-4xl mx-auto py-6 px-4 sm:px-6 text-center">
           <p className="font-poppins text-sm sm:text-base md:text-xl text-[#6F756B] leading-relaxed tracking-wide">
@@ -114,10 +116,11 @@ const HeroSection = () => {
       </section>
       {/* Icons & Inspired Section */}
       <section className="w-full mx-auto px-4 sm:px-[60px] py-10 md:py-10 font-poppins">
+        {/* container */}
         <div className="flex flex-col lg:flex-row items-center justify-between gap-8 w-full">
           {/* Left Side Title */}
-          <div className="text-center lg:text-left flex flex-col justify-center gap-3 pl-10">
-            <h2 className="text-gray-700 text-xl sm:text-2xl md:text-3xl font-bold mb-1">
+          <div className="flex flex-col lg:text-left justify-center items-center gap-3 pl-10  text-center ">
+            <h2 className="text-gray-700 text-xl sm:text-2xl md:text-3xl font-sans font-bold mb-1">
               Inspired from reality
             </h2>
             <p className="text-xs sm:text-sm text-[#6F756B] uppercase tracking-wider">
@@ -130,7 +133,7 @@ const HeroSection = () => {
             </Link>
           </div>
           {/* Right Side Cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 w-full h-[200px]">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 w-full min-h-[200px]">
             <div className="flex flex-col items-center p-5  bg-white/60 text-center rounded-lg shadow-sm border border-stone-100">
               <h3 className="text-base sm:text-lg font-bold mb-2 text-gray-700">
                 Thoughtful design
