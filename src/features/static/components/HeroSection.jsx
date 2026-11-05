@@ -11,7 +11,7 @@ const HeroSection = () => {
     <section className="min-h-screen bg-[#FAF7F2] w-full text-[#A47251] ">
       {/* Hero Background Image Section */}
       <section
-        className="flex justify-baseline items-end w-full min-h-[70vh] bg-cover bg-center bg-no-repeat overflow-hidden  "
+        className="flex  w-full min-h-[70vh] bg-cover bg-center bg-no-repeat overflow-hidden  "
         style={{ backgroundImage: `url(${HeroBg})` }}
       >
         <div className="flex items-center w-full p-4 sm:p-8  ">
@@ -25,28 +25,43 @@ const HeroSection = () => {
           </p>
         </div>
       </section>
-      {/* explanation div */}
-      <section className="flex flex-col sm:flex-row justify-center items-center bg-[#FAF7F2] px-[60px] py-12 sm:py-12">
-        <div className="">
-          <p className="text-4xl font-bold font-sans">
-            Welcome to HaykoDesigns
-          </p>
-        </div>
-        <div className="space-y-6 sm:space-y-8 flex flex-col justify-center items-center w-full max-w-4xl mx-auto py-6 px-4 sm:px-6 text-center">
-          <p className="font-poppins text-sm sm:text-base md:text-xl text-[#6F756B] leading-relaxed tracking-wide">
-            My work blends creativity, structure, and innovation to transform
-            spaces into powerful visual experiences. Every project is designed
-            with precision, emotion, and a unique architectural identity that
-            stands out from the ordinary.
-          </p>
+      {/* #explanation */}
+      <section className="flex flex-col sm:flex-row justify-center items-center min-h-[300px] bg-[#BFE7EA] px-[60px] py-12 sm:py-12  ">
+        {/* container */}
+        <div className="flex items-center">
+          {/* welcome     */}
+          <div className="self-start pt-10">
+            <p className="text-4xl font-bold font-sans ">
+              Welcome to HaykoDesigns
+            </p>
+          </div>
+          {/* container for para and some texts */}
+          <div className="space-y-6 sm:space-y-8 flex flex-col justify-center items-center w-full max-w-4xl mx-auto py-6 px-4 sm:px-6 text-center">
+            <p className="font-poppins text-sm sm:text-base md:text-xl text-[#6F756B] leading-relaxed tracking-wide">
+              My work blends creativity, structure, and innovation to transform
+              spaces into powerful visual experiences. Every project is designed
+              with precision, emotion, and a unique architectural identity that
+              stands out from the ordinary.
+            </p>
+            <div className="flex">
+              <p>
+                One Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Hic, consequuntur.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+                hic.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
       {/* Feature Collections Section */}
-      <section className="w-full py-8 sm:py-10 px-10 sm:px-[60px] md:px-6 bg-[#FAF7F2]">
+      <section className="w-full py-8 sm:py-10 px-10 sm:px-[60px] md:px-6 min-h-[300px] bg-[#FAF7F2] ">
         <div className="mx-auto md:px-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* === Card 1 === */}
-          <div className="bg-white rounded-sm overflow-hidden shadow-md border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
-            <div className="w-full h-40 sm:h-44 bg-gray-100 overflow-hidden">
+          <div className="bg-white rounded-sm overflow-hidden border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
+            <div className="w-full h-40 bg-gray-100 overflow-hidden">
               <img
                 src={Image1}
                 alt="Architecture Art 1"
@@ -64,8 +79,8 @@ const HeroSection = () => {
           </div>
 
           {/* === Card 2 === */}
-          <div className="bg-white rounded-sm overflow-hidden shadow-md border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
-            <div className="w-full h-40 sm:h-44 bg-gray-100 overflow-hidden">
+          <div className="bg-white rounded-sm overflow-hidden border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
+            <div className="w-full h-40  bg-gray-100 overflow-hidden">
               <img
                 src={Image10}
                 alt="Architecture Art 2"
@@ -81,8 +96,8 @@ const HeroSection = () => {
           </div>
 
           {/* === Card 3 === */}
-          <div className="bg-white rounded-sm overflow-hidden shadow-md border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
-            <div className="w-full h-40 sm:h-44 bg-gray-100 overflow-hidden">
+          <div className="bg-white rounded-sm overflow-hidden border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
+            <div className="w-full h-40  bg-gray-100 overflow-hidden">
               <img
                 src={Image8}
                 alt="Architecture Art 3"
@@ -97,8 +112,8 @@ const HeroSection = () => {
             </div>
           </div>
           {/* === Card 4 === */}
-          <div className="bg-white rounded-sm overflow-hidden shadow-md border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
-            <div className="w-full h-40 sm:h-44 bg-gray-100 overflow-hidden">
+          <div className="bg-white rounded-sm overflow-hidden  border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
+            <div className="w-full h-40  bg-gray-100 overflow-hidden">
               <img
                 src={Image15}
                 alt="Architecture Art 4"
@@ -115,12 +130,12 @@ const HeroSection = () => {
         </div>
       </section>
       {/* Icons & Inspired Section */}
-      <section className="w-full mx-auto px-4 sm:px-[60px] py-10 md:py-10 font-poppins">
+      <section className="w-full mx-auto px-4 sm:px-[60px] py-10 md:py-10 min-h-[300px] bg-[#BFE7EA] font-poppins">
         {/* container */}
         <div className="flex flex-col lg:flex-row items-center justify-between gap-8 w-full">
           {/* Left Side Title */}
           <div className="flex flex-col lg:text-left justify-center items-center gap-3 pl-10  text-center ">
-            <h2 className="text-gray-700 text-xl sm:text-2xl md:text-3xl font-sans font-bold mb-1">
+            <h2 className="mb-1 text-xl sm:text-2xl md:text-3xl  text-gray-700  font-sans  font-bold text-center">
               Inspired from reality
             </h2>
             <p className="text-xs sm:text-sm text-[#6F756B] uppercase tracking-wider">
