@@ -2,12 +2,10 @@ import React from "react";
 import { FaLinkedinIn } from "react-icons/fa";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FaSquareInstagram } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    // bg-pink-500/10: soft pink glass effect
-    // border-pink-200/20: adding soft pink at borders
-
     <footer className="flex justify-center h-[30vh] bg-[#3E4541] not-last-of-type:w-full py-12 backdrop-blur-2xl">
       <div className=" text-gray-700 max-w-8xl w-full mx-auto px-[4%] flex flex-col md:flex-row justify-between items-center gap-8">
         {/* Brand Name with Metallic Gradient Text */}
@@ -24,27 +22,23 @@ const Footer = () => {
         <div>
           <ul className="flex items-center gap-8">
             <li>
-              <a
-                href="#"
-                className=""
-              >
-                <FaLinkedinIn className="text-gray-700 group-hover:text-white group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] text-2xl transition-all" />
+              <a href="#" className="">
+                <FaLinkedinIn className="text-gray-700 group-hover:text-white group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] text-2xl transition-all text-white" />
               </a>
             </li>
             <li>
-              <a
-                href="#"
-                className=""
-              >
-                <MdOutlineMailOutline className="text-gray-700 group-hover:text-white group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] text-2xl transition-all" />
+              <a href="#" className="">
+                <MdOutlineMailOutline className="text-gray-700 group-hover:text-white group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] text-2xl transition-all text-white" />
               </a>
             </li>
             <li>
-              <a
-                href="#"
-                className=""
-              >
-                <FaSquareInstagram className="text-gray-700 group-hover:text-white group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] text-2xl transition-all" />
+              <a href="">
+                <FaFacebookF className="text-gray-700 group-hover:text-white group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] text-2xl transition-all text-white" />
+              </a>
+            </li>
+            <li>
+              <a href="#" className="">
+                <FaSquareInstagram className="text-gray-700 group-hover:text-white group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] text-2xl transition-all text-white" />
               </a>
             </li>
           </ul>

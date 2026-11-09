@@ -67,8 +67,6 @@ const Header = () => {
               </li>
             </ul>
           </div>
-
-          {/* Desktop Contact Button */}
           {/* Desktop Contact Button */}
           <div className="hidden md:block">
             <button className="bg-[#6F756B] text-white font-bold px-7 py-3 border border-transparent transition-all duration-300 hover:bg-stone-300 hover:text-gray-900 hover:border-gray-900 hover:scale-105 active:scale-95 focus:outline-none rounded-sm">
