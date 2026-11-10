@@ -1,15 +1,15 @@
 import React from "react";
-import haythikoko from "../assets/haythikoko.jpg";
+import haythikoko from "../assets/about.jpg";
 const AboutPage = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen px-6 py-12 bg-[#FFFBF1]">
+    <section className="flex items-center justify-center min-h-screen px-6 py-12 bg-[#FFFBF1]">
       <form action="">
         <input type="text" className="bg-gray-900" />
         <input type="text" className="bg-gray-900" />
-        <button className="bg-gray-900 rounded-lg p-3 m-3">Contact</button>
+        <button className="bg-[#E36A6A] rounded-lg p-3 m-3">Contact</button>
       </form>
       <div>
-        <p>
+        <p className="text-gray-900">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
           numquam repellat aperiam eum incidunt nemo ab odit culpa totam facilis
           perspiciatis soluta quod fuga modi alias est, commodi doloribus saepe!
@@ -30,10 +30,10 @@ const AboutPage = () => {
         <img
           src={haythikoko}
           alt=""
-          className="  mb-12  rounded-full shadow-lg"
+          className="  mb-12  rounded-sm shadow-lg"
         />
       </div>
-    </div>
+    </section>
   );
 };
 

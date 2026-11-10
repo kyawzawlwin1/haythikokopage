@@ -29,10 +29,10 @@ const HeroSection = () => (
       {/* container */}
       <div className="flex flex-col items-center px-10 gap-3 self-start">
         {/* welcome     */}
-        <h1 className=" text-4xl font-bold font-sans text-center pt-[30px]">
+        <h1 className=" text-[45px] font-bold font-sans text-center pt-[30px] text-[#E36A6A]">
           Welcome to
         </h1>
-        <h3 className="text-4xl font-bold">HaykoDesigns</h3>
+        <h3 className="text-[45px]  font-bold font-sans text-[#E36A6A]">HaykoDesigns</h3>
       </div>
       {/* container for para and some texts */}
       <div className="space-y-6 sm:space-y-8 flex flex-col justify-center items-center w-full max-w-4xl  py-6 px-4 sm:px-6 text-center">
@@ -65,7 +65,7 @@ const HeroSection = () => (
               className="w-full h-full object-cover block"
             />
           </div>
-          <div className="p-4 bg-white text-center sm:text-left">
+          <div className="p-4 bg-[#FFE2E2] text-center sm:text-left">
             <p className="font-semibold text-gray-800 text-base sm:text-lg">
               New arts here
             </p>
@@ -82,7 +82,7 @@ const HeroSection = () => (
               className="w-full h-full object-cover block"
             />
           </div>
-          <div className="p-4 bg-white text-center sm:text-left">
+          <div className="p-4 bg-[#FFE2E2] text-center sm:text-left">
             <p className="font-semibold text-gray-800 text-base sm:text-lg">
               New arts here
             </p>
@@ -99,7 +99,7 @@ const HeroSection = () => (
               className="w-full h-full object-cover block"
             />
           </div>
-          <div className="p-4 bg-white text-center sm:text-left">
+          <div className="p-4 bg-[#FFE2E2] text-center sm:text-left">
             <p className="font-semibold text-gray-800 text-base sm:text-lg">
               New arts here
             </p>
@@ -115,7 +115,7 @@ const HeroSection = () => (
               className="w-full h-full object-cover block"
             />
           </div>
-          <div className="p-4 bg-white text-center sm:text-left">
+          <div className="p-4 bg-[#FFE2E2] text-center sm:text-left">
             <p className="font-semibold text-gray-800 text-base sm:text-lg">
               New arts here
             </p>

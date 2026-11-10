@@ -78,7 +78,7 @@ const Header = () => {
               📱 MOBILE DROPDOWN MENU
               ========================================================================= */}
           {/* 🌟 CHANGED LINE: mobile nav bar */}
-          <div className="absolute top-[100%] left-0 w-full bg-[#FFFBF1] hidden peer-checked:flex flex-col items-left space-y-3 py-3 pt-0 pl-[7%] border-b border-gray-300 md:hidden z-40 shadow-md">
+          <div className="absolute top-[100%] left-0 right-0 w-full h-[80vh] bg-[#FFCED8] hidden peer-checked:flex flex-col items-left space-y-3 py-3 pt-0 pl-[7%] border-b border-gray-300 md:hidden z-40 shadow-md">
             <Link
               href="/"
               className="text-[#1a1a1a] font-bold text-xl hover:opacity-60><a "
