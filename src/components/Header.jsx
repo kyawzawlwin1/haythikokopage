@@ -4,14 +4,14 @@ import { BiMenu } from "react-icons/bi";
 
 const Header = () => {
   return (
-    <header className="font-poppins sticky top-0 z-50 bg-[#FAF7F2] w-full border-b border-gray-300 px-[60px] ">
+    <header className="font-poppins sticky top-0 z-50 bg-[#FFCED8] w-full border-b border-gray-300 px-[60px] ">
       {/* relative div */}
       <div className="mx-auto w-full relative">
         {/* nav bar */}
         <nav className="flex items-center justify-between w-full  py-4 relative">
           {/* Logo Section */}
           <div>
-            <a className="font-poppins font-extrabold text-[#1F2523] text-xl md:text-2xl tracking-tighter cursor-pointer hover:opacity-80 transition-opacity">
+            <a className="font-poppins font-extrabold text-[#E36A6A] text-xl md:text-2xl tracking-tighter cursor-pointer hover:opacity-80 transition-opacity">
               HAYKO DESIGNS
             </a>
           </div>
@@ -69,7 +69,7 @@ const Header = () => {
           </div>
           {/* Desktop Contact Button */}
           <div className="hidden md:block">
-            <button className="bg-[#6F756B] text-white font-bold px-7 py-3 border border-transparent transition-all duration-300 hover:bg-stone-300 hover:text-gray-900 hover:border-gray-900 hover:scale-105 active:scale-95 focus:outline-none rounded-sm">
+            <button className="bg-[#E36A6A] text-white font-bold px-7 py-3 border border-transparent transition-all duration-300 hover:bg-stone-300 hover:text-gray-900 hover:border-gray-900 hover:scale-105 active:scale-95 focus:outline-none rounded-sm">
               Contact
             </button>
           </div>

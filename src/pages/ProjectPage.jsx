@@ -19,7 +19,7 @@ import Image16 from "../assets/Image16.png";
 import Image17 from "../assets/Image17.png";
 
 const ProjectPage = () => {
-  // အစ်ကို့ရဲ့ ပရောဂျက် စာရင်းပါ
+  
   const myProjects = [
     {
       id: 1,

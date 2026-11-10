@@ -6,7 +6,7 @@ import { FaFacebookF } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="flex justify-center h-[30vh] bg-[#3E4541] not-last-of-type:w-full py-12 backdrop-blur-2xl">
+    <footer className="flex justify-center h-[30vh] bg-[#FFCED8] not-last-of-type:w-full py-12 backdrop-blur-2xl">
       <div className=" text-gray-700 max-w-8xl w-full mx-auto px-[4%] flex flex-col md:flex-row justify-between items-center gap-8">
         {/* Brand Name with Metallic Gradient Text */}
         <div className="font-poppins">
@@ -14,7 +14,7 @@ const Footer = () => {
             Hay Thi Ko Ko
           </span>
 
-          <p className="text-pink-700 text-xs mt-1">
+          <p className="text-[#E36A6A] text-xs mt-1">
             © 2026 All Rights Reserved.
           </p>
         </div>

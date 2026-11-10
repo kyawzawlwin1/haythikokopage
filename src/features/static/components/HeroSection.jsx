@@ -25,7 +25,7 @@ const HeroSection = () => (
       </div>
     </section>
     {/* #explanation */}
-    <section className="flex flex-col sm:flex-row justify-around items-center min-h-[300px] bg-[#BFE7EA] px-[60px] py-12 sm:py-12 px-[60px]  ">
+    <section className="flex flex-col sm:flex-row justify-around items-center min-h-[300px] bg-[#FF9D9D] px-[60px] py-12 sm:py-12 px-[60px]  ">
       {/* container */}
       <div className="flex flex-col items-center px-10 gap-3 self-start">
         {/* welcome     */}
@@ -54,7 +54,7 @@ const HeroSection = () => (
       </div>
     </section>
     {/* Feature Collections Section */}
-    <section className="w-full py-8 sm:py-10 px-10 sm:px-[60px] md:px-6 min-h-[300px] bg-[#FAF7F2] ">
+    <section className="w-full py-8 sm:py-10 px-10 sm:px-[60px] md:px-6 min-h-[300px] bg-[#FFDDDD] ">
       <div className="mx-auto md:px-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {/* === Card 1 === */}
         <div className="bg-white rounded-sm overflow-hidden border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
@@ -125,11 +125,11 @@ const HeroSection = () => (
       </div>
     </section>
     {/* Icons & Inspired Section */}
-    <section className="w-full mx-auto px-4 sm:px-[60px] py-10 md:py-10 min-h-[300px] bg-[#BFE7EA] font-poppins">
+    <section className="w-full mx-auto px-4 sm:px-[60px] py-10 md:py-10 min-h-[300px] bg-[#FFE2E2] font-poppins">
       {/* container */}
       <div className="flex flex-col lg:flex-row items-center justify-between gap-8 w-full">
         {/* Left Side Title */}
-        <div className="flex flex-col lg:text-left justify-center items-center gap-3 pl-10  text-center ">
+        <div className="flex flex-col lg:text-left justify-center items-center gap-3 lg:pl-10  text-center ">
           <h2 className="mb-1 text-xl sm:text-2xl md:text-3xl  text-gray-700  font-sans  font-bold text-center">
             Inspired from reality
           </h2>
@@ -143,9 +143,9 @@ const HeroSection = () => (
           </Link>
         </div>
         {/* Right Side Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lg:divide-x-1 lg:divide-white  w-full items-start">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lg:divide-x divide-[#FF9D9D] w-full">
           {/* container 1 */}
-          <div className="flex flex-col items-center text-center border-stone-900 px-3 py-3">
+          <div className="flex flex-col items-center text-center h-full border-stone-900 px-3 py-3">
             <h3 className="text-base sm:text-lg font-bold mb-2 text-gray-700">
               Thoughtful design
             </h3>
@@ -189,7 +189,7 @@ const HeroSection = () => (
       </div>
     </section>
     {/* Experience Stats Section */}
-    <section className="px-4 py-6 sm:py-10 ">
+    <section className="px-4 py-6 sm:py-10 bg-[#FFDDDD]">
       <div className="flex flex-wrap gap-4 sm:gap-12 md:gap-20 justify-center items-center text-center text-xs sm:text-sm md:text-xl font-poppins text-[#6F756B]">
         <p className="font-semibold">10+ Completed Projects</p>
         <p className="font-semibold">5 Years Experience 2026</p>
