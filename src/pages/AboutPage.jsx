@@ -2,7 +2,7 @@ import React from "react";
 import haythikoko from "../assets/about.jpg";
 const AboutPage = () => {
   return (
-    <section className="flex items-center justify-center min-h-screen px-6 py-12 bg-[#FFFBF1]">
+    <section className="flex items-center justify-center min-h-screen px-6 py-12 bg-[#FFE2E2]">
       <form action="">
         <input type="text" className="bg-gray-900" />
         <input type="text" className="bg-gray-900" />
@@ -30,7 +30,7 @@ const AboutPage = () => {
         <img
           src={haythikoko}
           alt=""
-          className="  mb-12  rounded-sm shadow-lg"
+          className="w-full h-full rounded-lg overflow-hidden"
         />
       </div>
     </section>

@@ -6,7 +6,7 @@ import { FaFacebookF } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="flex justify-center h-[30vh] bg-[#FFCED8] not-last-of-type:w-full py-12 backdrop-blur-2xl">
+    <footer className="flex justify-center h-[30vh] px-[30px] bg-[#FFCED8] not-last-of-type:w-full py-12 backdrop-blur-2xl">
       <div className=" text-gray-700 max-w-8xl w-full mx-auto px-[4%] flex flex-col md:flex-row justify-between items-center gap-8">
         {/* Brand Name with Metallic Gradient Text */}
         <div className="font-poppins">
@@ -23,22 +23,22 @@ const Footer = () => {
           <ul className="flex items-center gap-8">
             <li>
               <a href="#" className="">
-                <FaLinkedinIn className="text-gray-700 group-hover:text-white group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] text-2xl transition-all text-white" />
+                <FaLinkedinIn className="text-[#E36A6A] group-hover:text-white group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] text-2xl transition-all " />
               </a>
             </li>
             <li>
               <a href="#" className="">
-                <MdOutlineMailOutline className="text-gray-700 group-hover:text-white group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] text-2xl transition-all text-white" />
+                <MdOutlineMailOutline className="text-[#E36A6A] group-hover:text-white group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] text-2xl transition-all " />
               </a>
             </li>
             <li>
               <a href="">
-                <FaFacebookF className="text-gray-700 group-hover:text-white group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] text-2xl transition-all text-white" />
+                <FaFacebookF className="text-[#E36A6A] group-hover:text-white group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] text-2xl transition-all " />
               </a>
             </li>
             <li>
               <a href="#" className="">
-                <FaSquareInstagram className="text-gray-700 group-hover:text-white group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] text-2xl transition-all text-white" />
+                <FaSquareInstagram className="text-[#E36A6A] group-hover:text-white group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] text-2xl transition-all " />
               </a>
             </li>
           </ul>

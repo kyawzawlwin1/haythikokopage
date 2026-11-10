@@ -1,5 +1,5 @@
 import React from "react";
-import HeroBg from "../../../assets/futureimagefortesting.jpg";
+import HeroBg from "../../../assets/pinkroom.png";
 import { Link } from "wouter";
 import Image1 from "../../../assets/Image1.png";
 import Image10 from "../../../assets/Image10.png";
@@ -10,7 +10,7 @@ const HeroSection = () => (
   <section className="min-h-screen bg-[#FAF7F2] w-full ">
     {/* Hero Background Image Section */}
     <section
-      className="flex  w-full min-h-[70vh] bg-cover bg-center bg-no-repeat overflow-hidden  "
+      className="flex w-full min-h-[70vh] bg-fit bg-right bg-no-repeat overflow-hidden  "
       style={{ backgroundImage: `url(${HeroBg})` }}
     >
       <div className="flex items-center w-full p-4 sm:p-8  ">
@@ -18,21 +18,23 @@ const HeroSection = () => (
         {/* <div className=""></div> */}
 
         {/* Hero Text */}
-        <p className="text-gray-300 text-center font-serif font-bold text-base sm:text-xl md:text-4xl max-w-3xl leading-snug">
+        <p className="text-[#E36A6A]/70 text-center font-serif font-bold text-base text-[30px] md:text-4xl max-w-3xl leading-snug">
           I am an architect passionate about creating bold, intense, and modern
           designs that leave a lasting impression.
         </p>
       </div>
     </section>
     {/* #explanation */}
-    <section className="flex flex-col sm:flex-row justify-around items-center min-h-[300px] bg-[#FF9D9D] px-[60px] py-12 sm:py-12 px-[60px]  ">
+    <section className="flex flex-col sm:flex-row justify-around items-center min-h-[300px] bg-[#FF9D9D] px-[60px] sm:py-12 px-[60px]  ">
       {/* container */}
-      <div className="flex flex-col items-center px-10 gap-3 self-start">
+      <div className="flex flex-col justify-center items-center px-10 gap-3 lg:self-start">
         {/* welcome     */}
         <h1 className=" text-[45px] font-bold font-sans text-center pt-[30px] text-[#E36A6A]">
           Welcome to
         </h1>
-        <h3 className="text-[45px]  font-bold font-sans text-[#E36A6A]">HaykoDesigns</h3>
+        <h3 className="text-[45px]  font-bold font-sans text-[#E36A6A]">
+          HaykoDesigns
+        </h3>
       </div>
       {/* container for para and some texts */}
       <div className="space-y-6 sm:space-y-8 flex flex-col justify-center items-center w-full max-w-4xl  py-6 px-4 sm:px-6 text-center">
@@ -57,7 +59,7 @@ const HeroSection = () => (
     <section className="w-full py-8 sm:py-10 px-10 sm:px-[60px] md:px-6 min-h-[300px] bg-[#FFDDDD] ">
       <div className="mx-auto md:px-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {/* === Card 1 === */}
-        <div className="bg-white rounded-sm overflow-hidden border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
+        <div className="bg-white rounded-sm overflow-hidden transition-transform duration-300 hover:-translate-y-1">
           <div className="w-full h-40 bg-gray-100 overflow-hidden">
             <img
               src={Image1}
@@ -74,7 +76,7 @@ const HeroSection = () => (
         </div>
 
         {/* === Card 2 === */}
-        <div className="bg-white rounded-sm overflow-hidden border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
+        <div className="bg-white rounded-sm overflow-hidden transition-transform duration-300 hover:-translate-y-1">
           <div className="w-full h-40  bg-gray-100 overflow-hidden">
             <img
               src={Image10}
@@ -91,7 +93,7 @@ const HeroSection = () => (
         </div>
 
         {/* === Card 3 === */}
-        <div className="bg-white rounded-sm overflow-hidden border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
+        <div className="bg-white rounded-sm overflow-hidden  transition-transform duration-300 hover:-translate-y-1">
           <div className="w-full h-40  bg-gray-100 overflow-hidden">
             <img
               src={Image8}
@@ -107,7 +109,7 @@ const HeroSection = () => (
           </div>
         </div>
         {/* === Card 4 === */}
-        <div className="bg-white rounded-sm overflow-hidden  border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
+        <div className="bg-white rounded-sm overflow-hidden transition-transform duration-300 hover:-translate-y-1">
           <div className="w-full h-40  bg-gray-100 overflow-hidden">
             <img
               src={Image15}
@@ -125,7 +127,7 @@ const HeroSection = () => (
       </div>
     </section>
     {/* Icons & Inspired Section */}
-    <section className="w-full mx-auto px-4 sm:px-[60px] py-10 md:py-10 min-h-[300px] bg-[#FFE2E2] font-poppins">
+    <section className="w-full mx-auto px-4 sm:px-[60px] py-3 pb-1 md:py-10 min-h-[300px] bg-[#FFE2E2] font-poppins">
       {/* container */}
       <div className="flex flex-col lg:flex-row items-center justify-between gap-8 w-full">
         {/* Left Side Title */}
@@ -137,15 +139,15 @@ const HeroSection = () => (
             passionate
           </p>
           <Link href="/about">
-            <button className="font-sans bg-[#6F756B] text-stone-200 font-bold text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 transition-all duration-300 hover:bg-stone-900 hover:text-white hover:scale-105 active:scale-95 shadow-md rounded-lg cursor-pointer">
+            <button className="font-sans bg-[#E36A6A] text-stone-200 font-bold text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 transition-all duration-300 hover:bg-stone-900 hover:text-white hover:scale-105 active:scale-95 shadow-md rounded-lg cursor-pointer">
               Contact Me
             </button>
           </Link>
         </div>
         {/* Right Side Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lg:divide-x divide-[#FF9D9D] w-full">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lg:divide-x lg:divide-[#FF9D9D]/60 w-full">
           {/* container 1 */}
-          <div className="flex flex-col items-center text-center h-full border-stone-900 px-3 py-3">
+          <div className="flex flex-col items-center text-center px-3 py-8 sm:py-3">
             <h3 className="text-base sm:text-lg font-bold mb-2 text-gray-700">
               Thoughtful design
             </h3>
@@ -156,7 +158,7 @@ const HeroSection = () => (
           </div>
 
           {/* container 2 */}
-          <div className="flex flex-col items-center  text-center border-stone-900   px-3 py-3 ">
+          <div className="flex flex-col items-center  text-center px-3 py-8 sm:py-3 ">
             <h3 className="text-base sm:text-lg font-bold mb-2 text-gray-700">
               Smart Planning
             </h3>
@@ -166,7 +168,7 @@ const HeroSection = () => (
           </div>
 
           {/* container 3 */}
-          <div className="flex flex-col items-center  text-center border-stone-900 px-3 py-3 ">
+          <div className="flex flex-col items-center  text-center  px-3 py-8 sm:py-3 ">
             <h3 className="text-base sm:text-lg font-bold mb-2 text-gray-700">
               Timeless Spaces
             </h3>
@@ -177,7 +179,7 @@ const HeroSection = () => (
           </div>
 
           {/* container 4 */}
-          <div className="flex flex-col items-center text-center  px-3 py-3">
+          <div className="flex flex-col items-center text-center  px-3 py-8 sm:py-3">
             <h3 className="text-base sm:text-lg font-bold mb-2 text-gray-700">
               Direct Partnership
             </h3>
@@ -190,10 +192,10 @@ const HeroSection = () => (
     </section>
     {/* Experience Stats Section */}
     <section className="px-4 py-6 sm:py-10 bg-[#FFDDDD]">
-      <div className="flex flex-wrap gap-4 sm:gap-12 md:gap-20 justify-center items-center text-center text-xs sm:text-sm md:text-xl font-poppins text-[#6F756B]">
-        <p className="font-semibold">10+ Completed Projects</p>
-        <p className="font-semibold">5 Years Experience 2026</p>
-        <p className="font-semibold">Founded Studio</p>
+      <div className="flex flex-wrap gap-4 sm:gap-12 md:gap-20 justify-center items-center text-center text-[15px] sm:text-sm md:text-xl font-poppins text-[#6F756B]">
+        <p className="text-[#E36A6A] font-semibold">10+ Completed Projects</p>
+        <p className="text-[#E36A6A] font-semibold">5 Years Experience 2026</p>
+        <p className="text-[#E36A6A] font-semibold">Founded Studio</p>
       </div>
     </section>
     {/* Paragraph & Contact Button Section */}

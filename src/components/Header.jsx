@@ -4,11 +4,11 @@ import { BiMenu } from "react-icons/bi";
 
 const Header = () => {
   return (
-    <header className="font-poppins sticky top-0 z-50 bg-[#FFCED8] w-full border-b border-gray-300 px-[60px] ">
+    <header className="font-poppins sticky top-0 z-50 bg-[#FFCED8] w-full border-b border-gray-300 px-[30px] lg:px-[60px] ">
       {/* relative div */}
       <div className="mx-auto w-full relative">
         {/* nav bar */}
-        <nav className="flex items-center justify-between w-full  py-4 relative">
+        <nav className="flex items-center justify-between w-full py-4 relative">
           {/* Logo Section */}
           <div>
             <a className="font-poppins font-extrabold text-[#E36A6A] text-xl md:text-2xl tracking-tighter cursor-pointer hover:opacity-80 transition-opacity">
@@ -78,10 +78,10 @@ const Header = () => {
               📱 MOBILE DROPDOWN MENU
               ========================================================================= */}
           {/* 🌟 CHANGED LINE: mobile nav bar */}
-          <div className="absolute top-[100%] left-0 right-0 w-full h-[80vh] bg-[#FFCED8] hidden peer-checked:flex flex-col items-left space-y-3 py-3 pt-0 pl-[7%] border-b border-gray-300 md:hidden z-40 shadow-md">
+          <div className="w-full h-[100vh] pt-4 px-[7%] fixed top-0 right-0 bg-[#FFCED8] hidden peer-checked:flex flex-col gap-3 border-b border-gray-300 md:hidden z-40 transform -translate-x-full peer-checked:translate-x-0 transition-transform duration-300 ease-in-out">
             <Link
               href="/"
-              className="text-[#1a1a1a] font-bold text-xl hover:opacity-60><a "
+              className=" text-[#1a1a1a] font-bold text-xl hover:opacity-60 "
             >
               Home
             </Link>
@@ -103,7 +103,7 @@ const Header = () => {
             >
               About
             </Link>
-            <button className="bg-gray-900 text-white font-bold px-10 py-3 tracking-wide uppercase text-sm w-[60%] rounded-sm hover:bg-[#FFFBF1] hover:text-gray-300">
+            <button className="px-3 py-3 bg-gray-900 text-white text-center font-bold  tracking-wide uppercase text-sm rounded-sm hover:bg-[#FFFBF1] hover:text-gray-300">
               Contact
             </button>
           </div>
