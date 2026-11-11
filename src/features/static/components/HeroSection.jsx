@@ -38,7 +38,7 @@ const HeroSection = () => (
       </div>
       {/* container for para and some texts */}
       <div className="space-y-6 sm:space-y-8 flex flex-col justify-center items-center w-full max-w-4xl  py-6 px-4 sm:px-6 text-center">
-        <p className="font-poppins text-sm sm:text-base md:text-xl text-[#6F756B] leading-relaxed tracking-wide">
+        <p className="font-JetBrains Mono text-sm sm:text-base md:text-xl text-primary-light-pink leading-relaxed tracking-wide">
           My work blends creativity, structure, and innovation to transform
           spaces into powerful visual experiences. Every project is designed
           with precision, emotion, and a unique architectural identity that
@@ -56,7 +56,7 @@ const HeroSection = () => (
       </div>
     </section>
     {/* Feature Collections Section */}
-    <section className="w-full py-8 sm:py-10 px-10 sm:px-[60px] md:px-6 min-h-[300px] bg-[#FFDDDD] ">
+    <section className="w-full py-8 sm:py-10 px-10 sm:px-[60px] md:px-6 min-h-[300px] bg-primary-light-pink ">
       <div className="mx-auto md:px-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {/* === Card 1 === */}
         <div className="bg-white rounded-sm overflow-hidden transition-transform duration-300 hover:-translate-y-1">
