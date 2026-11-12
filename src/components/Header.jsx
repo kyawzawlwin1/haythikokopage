@@ -4,14 +4,14 @@ import { BiMenu } from "react-icons/bi";
 
 const Header = () => {
   return (
-    <header className="font-poppins sticky top-0 z-50 bg-[#FFCED8] w-full border-b border-gray-300 px-[30px] lg:px-[60px] ">
+    <header className="font-poppins sticky top-0 z-50 bg-[#FFCED8] w-full   px-[30px] lg:px-[60px] ">
       {/* relative div */}
       <div className="mx-auto w-full relative">
         {/* nav bar */}
         <nav className="flex items-center justify-between w-full py-4 relative">
           {/* Logo Section */}
           <div>
-            <a className="font-poppins font-extrabold text-[#E36A6A] text-xl md:text-2xl tracking-tighter cursor-pointer hover:opacity-80 transition-opacity">
+            <a className="font-poppins font-extrabold text-[#D45060] text-xl md:text-2xl tracking-tighter cursor-pointer hover:opacity-80 transition-opacity">
               HAYKO DESIGNS
             </a>
           </div>
@@ -36,7 +36,7 @@ const Header = () => {
               <li>
                 <Link
                   href="/"
-                  className="text-[#1a1a1a] font-bold tracking-tight hover:text-[gray-500] transition-all duration-300 text-xl"
+                  className="text-[#E36A6A] font-JetBrains Mono font-bold tracking-tight hover:text-[gray-500] transition-all duration-300 text-xl"
                 >
                   Home
                 </Link>
@@ -44,7 +44,7 @@ const Header = () => {
               <li>
                 <Link
                   href="/Projects"
-                  className="text-gray-800 text-lg border-l border-gray-400 pl-3 hover:text-gray-500 transition-all"
+                  className="text-[#E36A6A] text-lg font-JetBrains Mono border-l border-gray-400 pl-3 hover:text-gray-500 transition-all"
                 >
                   Projects
                 </Link>
@@ -52,7 +52,7 @@ const Header = () => {
               <li>
                 <Link
                   href="/services"
-                  className="text-gray-800 text-lg hover:text-gray-500 transition-all"
+                  className="text-[#E36A6A] text-lg font-JetBrains Mono hover:text-gray-500 transition-all"
                 >
                   Services
                 </Link>
@@ -60,7 +60,7 @@ const Header = () => {
               <li>
                 <Link
                   href="/about"
-                  className="text-gray-800 text-lg hover:text-gray-500 transition-all"
+                  className="text-[#E36A6A] text-lg font-JetBrains Mono hover:text-gray-500 transition-all"
                 >
                   About
                 </Link>
@@ -69,7 +69,7 @@ const Header = () => {
           </div>
           {/* Desktop Contact Button */}
           <div className="hidden md:block">
-            <button className="bg-[#E36A6A] text-white font-bold px-7 py-3 border border-transparent transition-all duration-300 hover:bg-stone-300 hover:text-gray-900 hover:border-gray-900 hover:scale-105 active:scale-95 focus:outline-none rounded-sm">
+            <button className="bg-[#D45060] text-[#FFCED8] font-bold px-7 py-3 border border-transparent transition-all duration-300 hover:bg-[#FFCED8] hover:text-gray-900 hover:border-[#D45060] hover:scale-105 active:scale-95 focus:outline-none rounded-sm">
               Contact
             </button>
           </div>
@@ -81,7 +81,7 @@ const Header = () => {
           <div className="w-full h-[100vh] pt-4 px-[7%] fixed top-0 right-0 bg-[#FFCED8] hidden peer-checked:flex flex-col gap-3 border-b border-gray-300 md:hidden z-40 transform -translate-x-full peer-checked:translate-x-0 transition-transform duration-300 ease-in-out">
             <Link
               href="/"
-              className=" text-[#1a1a1a] font-bold text-xl hover:opacity-60 "
+              className="text-[#E36A6A] font-bold text-xl hover:opacity-60"
             >
               Home
             </Link>
@@ -103,7 +103,7 @@ const Header = () => {
             >
               About
             </Link>
-            <button className="px-3 py-3 bg-gray-900 text-white text-center font-bold  tracking-wide uppercase text-sm rounded-sm hover:bg-[#FFFBF1] hover:text-gray-300">
+            <button className="self-start px-6 py-2.5 bg-gray-900 text-white text-center font-bold tracking-wide uppercase text-sm rounded-sm hover:bg-[#FFFBF1] hover:text-gray-900 transition-colors">
               Contact
             </button>
           </div>

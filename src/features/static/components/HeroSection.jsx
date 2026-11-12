@@ -26,25 +26,28 @@ const HeroSection = () => (
     </section>
     {/* #explanation */}
     <section className="flex flex-col sm:flex-row justify-around items-center min-h-[300px] bg-[#FF9D9D] px-[60px] sm:py-12 px-[60px]  ">
-      {/* container */}
-      <div className="flex flex-col justify-center items-center px-10 gap-3 lg:self-start">
+      {/* container for logo  */}
+      <div className="flex flex-col justify-center items-center lg:self-start  px-10 lg:px-1  font-poppins">
         {/* welcome     */}
-        <h1 className=" text-[45px] font-bold font-sans text-center pt-[30px] text-[#E36A6A]">
-          Welcome to
+        <h1 className="text-[54px] lg:text-[45px] font-bold text-center pt-[30px] text-[#E36A6A]">
+          Welcome
         </h1>
-        <h3 className="text-[45px]  font-bold font-sans text-[#E36A6A]">
+        <p className="text-[34px] lg:text-[30px] font-bold text-center text-[#E36A6A]">
+          to
+        </p>
+        <h3 className="text-[40px] lg:text-[45px] font-bold text-[#E36A6A]">
           HaykoDesigns
         </h3>
       </div>
       {/* container for para and some texts */}
       <div className="space-y-6 sm:space-y-8 flex flex-col justify-center items-center w-full max-w-4xl  py-6 px-4 sm:px-6 text-center">
-        <p className="font-JetBrains Mono text-sm sm:text-base md:text-xl text-primary-light-pink leading-relaxed tracking-wide">
+        <p className="font-JetBrains Mono text-sm sm:text-base md:text-xl text-[#D45060] leading-relaxed tracking-wide">
           My work blends creativity, structure, and innovation to transform
           spaces into powerful visual experiences. Every project is designed
           with precision, emotion, and a unique architectural identity that
           stands out from the ordinary.
         </p>
-        <div className="flex">
+        <div className="flex ">
           <p>
             One Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic,
             consequuntur.
